@@ -1058,6 +1058,8 @@ export default function SettingsPanel({
                             { value: 'de', label: 'Deutsch' },
                             { value: 'es', label: 'Español' },
                             { value: 'fr', label: 'Français' },
+                            { value: 'gu', label: 'ગુજરાતી' },
+                            { value: 'hi', label: 'हिन्दी' },
                             { value: 'it', label: 'Italiano' },
                             { value: 'nl', label: 'Nederlands' },
                             { value: 'pl', label: 'Polski' },
@@ -1508,7 +1510,7 @@ export default function SettingsPanel({
                     </div>
                   </div>
 
-                  <ImmichSettings />
+                  {/* <ImmichSettings /> */}
 
                   <div className="p-6 bg-surface rounded-xl shadow-md">
                     <Text variant={TextVariants.title} color={TextColors.accent} className="mb-5">
@@ -1709,7 +1711,7 @@ export default function SettingsPanel({
                     </div>
                   </div>
 
-                  <div className="p-6 bg-surface rounded-xl shadow-md">
+                  {/* <div className="p-6 bg-surface rounded-xl shadow-md">
                     <Text variant={TextVariants.title} color={TextColors.accent} className="mb-4">
                       {t('settings.thanks.title')}
                     </Text>
@@ -1874,7 +1876,7 @@ export default function SettingsPanel({
                         {t('settings.thanks.list.you')}
                       </li>
                     </Text>
-                  </div>
+                  </div> */}
                 </motion.div>
               )}
               {activeCategory === 'processing' && (

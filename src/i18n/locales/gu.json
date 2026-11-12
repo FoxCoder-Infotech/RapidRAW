@@ -1,0 +1,2438 @@
+{
+  "adjustments": {
+    "basic": {
+      "blacks": "કાળા",
+      "brightness": "તેજ",
+      "contrast": "કોન્ટ્રાસ્ટ",
+      "exposure": "એક્સપોઝર",
+      "highlights": "હાઇલાઇટ્સ",
+      "mappers": {
+        "agx": "AgX",
+        "agxDesc": "ફિલ્મ જેવું ટોનમેપિંગ",
+        "basic": "મૂળભૂત",
+        "basicDesc": "માનક ટોનમેપિંગ"
+      },
+      "reset": "રીસેટ કરો",
+      "shadows": "પડછાયાઓ",
+      "toneMapper": "ટોન મેપર",
+      "whites": "વ્હાઇટ્સ"
+    },
+    "color": {
+      "ariaSelectColor": "{{name}} રંગ પસંદ કરો",
+      "calibration": {
+        "colors": {
+          "blue": "વાદળી",
+          "green": "લીલો",
+          "red": "લાલ"
+        },
+        "hue": "હ્યુ",
+        "primaries": "પ્રાથમિક",
+        "saturation": "સંતૃપ્તિ",
+        "shadows": "પડછાયાઓ",
+        "tint": "ટિન્ટ",
+        "title": "રંગ માપાંકન"
+      },
+      "colorGrading": "કલર ગ્રેડિંગ",
+      "colorMixer": "કલર મિક્સર",
+      "grading": {
+        "balance": "બેલેન્સ",
+        "blending": "સંમિશ્રણ",
+        "global": "વૈશ્વિક",
+        "highlights": "હાઇલાઇટ્સ",
+        "midtones": "મિડટોન",
+        "shadows": "પડછાયાઓ"
+      },
+      "hue": "હ્યુ",
+      "kelvinModeTooltip": "કેલ્વિનમાં તાપમાન બતાવો",
+      "localHue": "લોકલ હ્યુ",
+      "luminance": "લ્યુમિનેન્સ",
+      "mixerColors": {
+        "aquas": "એક્વાસ",
+        "blues": "બ્લૂ",
+        "greens": "ગ્રીન્સ",
+        "magentas": "મેજેન્ટા",
+        "oranges": "નારંગી",
+        "purples": "જાંબલી",
+        "reds": "લાલ",
+        "yellows": "પીળો"
+      },
+      "mixerPickerTooltip": "કલર મિક્સર પીકર: ક્લિક કરો અને ફોટા પર ઉપર અથવા નીચે ખેંચો",
+      "monochrome": {
+        "badge": "B&W",
+        "balance": "બેલેન્સ",
+        "blackWhite": "કાળો અને સફેદ",
+        "film": "ફિલ્મ",
+        "filmDescriptions": {
+          "balanced": "હળવા લાલ અને ચામડીવાળા રંગોમાં પણ સંવેદનશીલતા",
+          "extendedRed": "તેજસ્વી ત્વચા અને ઘાટા આકાશ સાથે લાલ-સંવેદનશીલ ફિલ્મ",
+          "infrared": "ચમકતા પર્ણસમૂહ અને નજીકનું કાળું આકાશ",
+          "neutral": "દરેક રંગની દેખીતી તેજ સાથે મેળ ખાય છે",
+          "orthoPanchromatic": "ચપળ લીલાં સાથે સહેજ ઘાટા લાલ",
+          "orthochromatic": "લાલથી અંધ, ઘેરા લાલ અને તેજસ્વી આકાશ સાથે",
+          "panchromatic": "હળવા વાદળી આકાશ સાથે ઉત્તમ ફિલ્મ પ્રતિભાવ"
+        },
+        "films": {
+          "balanced": "સંતુલિત",
+          "extendedRed": "વિસ્તૃત લાલ",
+          "infrared": "ઇન્ફ્રારેડ",
+          "neutral": "તટસ્થ",
+          "orthoPanchromatic": "ઓર્થો-પાન",
+          "orthochromatic": "ઓર્થોક્રોમેટિક",
+          "panchromatic": "પંચરોમેટિક"
+        },
+        "filter": "ફિલ્ટર",
+        "filters": {
+          "blue": "વાદળી",
+          "green": "લીલો",
+          "none": "કોઈ નહીં",
+          "orange": "નારંગી",
+          "red": "લાલ",
+          "yellow": "પીળો"
+        },
+        "highlights": "હાઇલાઇટ્સ",
+        "hue": "હ્યુ",
+        "mix": "B&W મિક્સ",
+        "mixPickerTooltip": "B&W મિક્સ પીકર: ક્લિક કરો અને ફોટા પર ઉપર અથવા નીચે ખેંચો",
+        "saturation": "સંતૃપ્તિ",
+        "shadows": "પડછાયાઓ",
+        "strength": "શક્તિ",
+        "toning": "ટોનિંગ",
+        "tonings": {
+          "cyanotype": "સાયનોટાઇપ",
+          "gold": "સોનું",
+          "none": "કોઈ નહીં",
+          "platinum": "પ્લેટિનમ",
+          "selenium": "સેલેનિયમ",
+          "sepia": "સેપિયા",
+          "split": "સ્પ્લિટ ટોન"
+        }
+      },
+      "presence": "પ્રેઝન્સ",
+      "saturation": "સંતૃપ્તિ",
+      "temperature": "તાપમાન",
+      "tint": "ટિન્ટ",
+      "toggleSliders": "સ્લાઇડર્સ ટૉગલ કરો",
+      "vibrance": "વાઇબ્રન્સ",
+      "wbPickerTooltip": "વ્હાઇટ બેલેન્સ પીકર",
+      "wbPickerWgpuDisabled": "WB પીકર: સેટિંગ્સમાં WGPU ને અક્ષમ કરો.",
+      "whiteBalance": "વ્હાઇટ બેલેન્સ"
+    },
+    "curves": {
+      "channelTitle": "{{channel}} ચેનલ",
+      "channels": {
+        "blue": "વાદળી",
+        "green": "લીલો",
+        "luma": "લુમા",
+        "red": "લાલ"
+      },
+      "copyParametric": "{{channel}} પેરામેટ્રિક કર્વ કૉપિ કરો",
+      "copyPoint": "કૉપિ કરો {{channel}} બિંદુ વળાંક",
+      "curveDataUnavailable": "કર્વ ડેટા ઉપલબ્ધ નથી.",
+      "parametricCurve": "પેરામેટ્રિક કર્વ",
+      "params": {
+        "blackLevel": "બ્લેક લેવલ",
+        "darks": "ડાર્ક",
+        "highlights": "હાઇલાઇટ્સ",
+        "lights": "લાઇટ્સ",
+        "shadows": "પડછાયાઓ",
+        "whiteLevel": "સફેદ સ્તર"
+      },
+      "pasteFromParametric": "પેરામેટ્રિક કર્વમાંથી પેસ્ટ કરો",
+      "pasteParametric": "પેરામેટ્રિક કર્વ પેસ્ટ કરો",
+      "pastePoint": "પેસ્ટ પોઇન્ટ કર્વ",
+      "pointCurve": "બિંદુ વળાંક",
+      "resetAllParametric": "બધા પેરામેટ્રિક કર્વ્સને ફરીથી સેટ કરો",
+      "resetAllPoint": "બધા પોઈન્ટ કર્વ્સને રીસેટ કરો",
+      "resetParametric": "{{channel}} પેરામેટ્રિક કર્વ રીસેટ કરો",
+      "resetPoint": "{{channel}} પોઇન્ટ કર્વ રીસેટ કરો"
+    },
+    "details": {
+      "aiDenoise": "AI ડીનોઈઝ",
+      "classicDenoise": "ક્લાસિક ડેનોઇઝ",
+      "aiDenoiseDetail": "વિગત",
+      "aiUpscale": "RapidRes 2x",
+      "aiUpscaleDetail": "વિગત",
+      "blueYellow": "વાદળી/પીળો",
+      "centre": "કેન્દ્ર",
+      "chromaticAberration": "ક્રોમેટિક એબરેશન",
+      "clarity": "સ્પષ્ટતા",
+      "color": "રંગ",
+      "convertNegative": "નેગેટિવ કન્વર્ટ કરો",
+      "dehaze": "ડીહેઝ",
+      "luminance": "લ્યુમિનેન્સ",
+      "negativeBlue": "વાદળી",
+      "negativeContrast": "પ્રિન્ટ ગ્રેડ",
+      "negativeConversion": "નેગેટિવ રૂપાંતર",
+      "negativeExposure": "પ્રિન્ટ એક્સપોઝર",
+      "negativeGreen": "લીલો",
+      "negativeRed": "લાલ",
+      "noiseReduction": "અવાજ ઘટાડો",
+      "superResolution": "RapidRes",
+      "presence": "પ્રેઝન્સ",
+      "redCyan": "લાલ/સ્યાન",
+      "sharpening": "શાર્પનિંગ",
+      "sharpness": "તીક્ષ્ણતા",
+      "structure": "માળખું",
+      "threshold": "થ્રેશોલ્ડ"
+    },
+    "effects": {
+      "amount": "માત્રા",
+      "bokehCircular": "ગોળ",
+      "bokehHexagonal": "ષટ્કોણ",
+      "bokehOctagonal": "અષ્ટકોણ",
+      "bokehRing": "બબલ (રિંગ)",
+      "bokehShape": "બોકેહ આકાર",
+      "creative": "સર્જનાત્મક",
+      "feather": "ફેધર",
+      "fog": "ધુમ્મસ",
+      "fogDensity": "ઘનતા",
+      "fogHeight": "ગ્રાઉન્ડ ધુમ્મસ",
+      "fogStart": "શરૂ કરો",
+      "fogVariation": "વિવિધતા",
+      "glow": "ગ્લો",
+      "grain": "ગ્રેન",
+      "halation": "હેલેશન",
+      "lensBlur": "લેન્સ બ્લર",
+      "lensDiffusion": "ડિફ્યુઝન",
+      "lightFlares": "લાઇટ ફ્લેર",
+      "lut": "LUT",
+      "midpoint": "મધ્યબિંદુ",
+      "motionBlur": "મોશન બ્લર",
+      "motionBlurAngle": "કોણ",
+      "motionBlurDepth": "ઊંડાઈ",
+      "motionBlurHighlights": "હાઇલાઇટ્સ",
+      "motionBlurLayer": "ગતિ",
+      "motionBlurLayers": {
+        "auto": "ઓટો",
+        "panning": "પૅનિંગ",
+        "subject": "મૂવિંગ સબ્જેક્ટ",
+        "uniform": "એકસમાન"
+      },
+      "motionBlurType": "પ્રકાર",
+      "motionBlurTypes": {
+        "linear": "લીનિયર",
+        "zoom": "ઝૂમ",
+        "spin": "સ્પિન",
+        "smooth": "સરળ"
+      },
+      "relight": "રિલાઇટ",
+      "relightAddLight": "પ્રકાશ ઉમેરો",
+      "relightAmbient": "એમ્બિયન્ટ",
+      "relightAngle": "કોણ",
+      "relightColor": "લાઇટનો રંગ",
+      "relightCone": "શંકુ",
+      "relightDepth": "ઊંડાઈ",
+      "relightDuplicateLight": "ડુપ્લિકેટ લાઇટ",
+      "relightElevation": "એલિવેશન",
+      "relightFalloff": "ફોલઓફ",
+      "relightHint": "પ્રકાશ ઉમેરો અથવા પસંદ કરો, પછી તેને સ્થાન આપવા માટે છબી પર ક્લિક કરો અથવા ખેંચો.",
+      "relightIntensity": "તીવ્રતા",
+      "relightLight": "પ્રકાશ {{index}}",
+      "relightRemoveLight": "લાઇટ દૂર કરો",
+      "relightShadowSoftness": "શેડો સોફ્ટનેસ",
+      "relightShadows": "પડછાયાઓ",
+      "relightShine": "ચમકવું",
+      "relightSoftness": "નરમાઈ",
+      "relightType": "પ્રકાશ પ્રકાર",
+      "relightTypes": {
+        "directional": "દિશાસૂચક",
+        "point": "બિંદુ",
+        "spot": "સ્પોટ"
+      },
+      "roughness": "રફનેસ",
+      "roundness": "ગોળાકારતા",
+      "size": "કદ",
+      "spatial": "અવકાશી",
+      "vignette": "વિગ્નેટ"
+    }
+  },
+  "contextMenus": {
+    "album": {
+      "emptyGroup": "(ખાલી જૂથ)"
+    },
+    "albumIcons": {
+      "automotive": "ઓટોમોટિવ",
+      "default": "ફોલ્ડર (ડિફૉલ્ટ)",
+      "favorites": "મનપસંદ",
+      "featured": "વૈશિષ્ટિકૃત",
+      "locations": "સ્થાનો",
+      "nature": "પ્રકૃતિ",
+      "people": "લોકો",
+      "person": "વ્યક્તિ",
+      "photography": "ફોટોગ્રાફી",
+      "portfolio": "પોર્ટફોલિયો",
+      "summer": "ઉનાળો",
+      "travel": "મુસાફરી"
+    },
+    "albums": {
+      "alreadyAtRoot": "પહેલેથી જ રૂટ પર",
+      "alreadyHere": "પહેલેથી જ અહીં",
+      "confirmDeleteAlbum": "આલ્બમ કાઢી નાખવાની પુષ્ટિ કરો",
+      "confirmDeleteGroupEmpty": "આલ્બમ જૂથ કાઢી નાખવાની પુષ્ટિ કરો",
+      "confirmDeleteGroupNested": "જૂથ અને બધા નેસ્ટેડ આલ્બમ્સ કાઢી નાખવાની પુષ્ટિ કરો",
+      "deleteAlbum": "આલ્બમ કાઢી નાખો",
+      "deleteGroup": "જૂથ કાઢી નાખો",
+      "moveHere": "અહીં ખસેડો",
+      "moveTo": "અહીં ખસેડો...",
+      "newAlbum": "નવું આલ્બમ",
+      "newGroup": "નવું જૂથ",
+      "renameAlbum": "આલ્બમનું નામ બદલો",
+      "renameGroup": "જૂથનું નામ બદલો",
+      "rootDir": "રૂટ ડિરેક્ટરી"
+    },
+    "autoAdjustModes": {
+      "normal": "સામાન્ય",
+      "strong": "મજબૂત",
+      "subtle": "સૂક્ષ્મ"
+    },
+    "colors": {
+      "blue": "વાદળી",
+      "green": "લીલો",
+      "orange": "નારંગી",
+      "pink": "ગુલાબી",
+      "purple": "જાંબલી",
+      "red": "લાલ",
+      "yellow": "પીળો"
+    },
+    "editor": {
+      "autoAdjust": "ઓટો એડજસ્ટ",
+      "autoLensCorrection": "ઓટો લેન્સ કરેક્શન",
+      "autoStraighten": "સ્વતઃ સીધા કરો",
+      "cancel": "રદ કરો",
+      "closeViewer": "બીજી વિન્ડો બંધ કરો",
+      "colorLabel": "રંગ લેબલ",
+      "confirmReset": "રીસેટની પુષ્ટિ કરો",
+      "convertBlackWhite": "બ્લેક એન્ડ વ્હાઇટમાં કન્વર્ટ કરો",
+      "convertNegative": "નેગેટિવ કન્વર્ટ કરો",
+      "copyAdjustments": "કૉપિ ગોઠવણો",
+      "cullImage": "ઓટો કલિંગ",
+      "denoise": "ડેનોઇઝ",
+      "editImage": "છબી સંપાદિત કરો",
+      "editIn": "માં સંપાદિત કરો",
+      "exportImage": "છબી નિકાસ કરો",
+      "flag": "ફ્લેગ",
+      "flagPick": "પસંદ કરેલ",
+      "flagReject": "નામંજૂર",
+      "frameImage": "ફ્રેમ એડિટર",
+      "mergeHdr": "HDR માં મર્જ કરો",
+      "noLabel": "કોઈ લેબલ નથી",
+      "noRating": "કોઈ રેટિંગ નથી",
+      "openViewer": "બીજી વિંડોમાં ખોલો",
+      "pasteAdjustments": "ગોઠવણો પેસ્ટ કરો",
+      "productivity": "ઉત્પાદકતા",
+      "rating": "રેટિંગ",
+      "ratingLabel_one": "{{count}} સ્ટાર",
+      "ratingLabel_other": "{{count}} તારા",
+      "redo": "ફરી કરો",
+      "removeBlackWhite": "કાળો અને સફેદ દૂર કરો",
+      "removeDenoise": "ડીનોઈઝ દૂર કરો",
+      "superResolution": "RapidRes (2x)",
+      "removeSuperResolution": "RapidRes દૂર કરો",
+      "removeNegativeConversion": "નેગેટિવ રૂપાંતર દૂર કરો",
+      "resetAdjustments": "ગોઠવણો રીસેટ કરો",
+      "stitchPanorama": "સ્ટીચ પેનોરમા",
+      "tagging": "ટેગીંગ",
+      "undo": "પૂર્વવત્ કરો",
+      "unflagged": "ફ્લેગ વગર"
+    },
+    "folders": {
+      "changeIcon": "આઇકન બદલો",
+      "confirm": "પુષ્ટિ કરો",
+      "copyHere_one": "અહીં ઇમેજ કોપી કરો",
+      "copyHere_other": "અહીં {{count}} ઇમેજ કૉપિ કરો",
+      "deleteFolder": "ફોલ્ડર કાઢી નાખો",
+      "importImages": "છબીઓ આયાત કરો",
+      "moveHere_one": "છબી અહીં ખસેડો",
+      "moveHere_other": "અહીં {{count}} છબીઓ ખસેડો",
+      "newFolder": "નવું ફોલ્ડર",
+      "paste": "પેસ્ટ કરો",
+      "pin": "ફોલ્ડર પિન કરો",
+      "refresh": "ફોલ્ડર્સ રિફ્રેશ કરો",
+      "removeRoot": "રૂટ ફોલ્ડર દૂર કરો",
+      "renameFolder": "ફોલ્ડરનું નામ બદલો",
+      "showExplorer": "ફાઇલ એક્સપ્લોરરમાં બતાવો",
+      "unpin": "ફોલ્ડર અનપિન કરો"
+    },
+    "library": {
+      "addCopiedToAlbum_one": "આલ્બમમાં કૉપિ કરેલી છબી ઉમેરો",
+      "addCopiedToAlbum_other": "આલ્બમમાં {{count}} કૉપિ કરેલી છબીઓ ઉમેરો",
+      "deleteRejected": "નકારવામાં આવેલી છબીઓ કાઢી નાખો",
+      "refreshView": "દૃશ્ય તાજું કરો"
+    },
+    "merge": {
+      "focusStack": "ફોકસ સ્ટેકીંગ",
+      "title": "મર્જ"
+    },
+    "tagging": {
+      "addTagTooltip": "ટેગ ઉમેરો",
+      "noTags": "કોઈ ટૅગ ઉમેર્યા નથી",
+      "placeholder": "ટેગ ઉમેરો...",
+      "removeTooltip": "ટેગ \"{{tag}}\" દૂર કરો",
+      "shortcutsHeading": "શોર્ટકટ્સ"
+    },
+    "thumbnail": {
+      "addToAlbum": "આલ્બમમાં ઉમેરો",
+      "autoAdjust_one": "ઓટો એડજસ્ટ",
+      "autoAdjust_other": "ઓટો એડજસ્ટ",
+      "autoLensCorrection_one": "ઓટો લેન્સ કરેક્શન",
+      "autoLensCorrection_other": "ઓટો લેન્સ કરેક્શન",
+      "autoStraighten_one": "સ્વતઃ સીધા કરો",
+      "autoStraighten_other": "સ્વતઃ સીધા કરો",
+      "collage_one": "ફ્રેમ એડિટર",
+      "collage_other": "કોલાજ બનાવો",
+      "confirmDelete": "કાઢી નાખવાની પુષ્ટિ કરો",
+      "confirmDeleteVc": "ડિલીટ + વર્ચ્યુઅલ કોપીઝની પુષ્ટિ કરો",
+      "copyImage_one": "છબી કૉપિ કરો",
+      "copyImage_other": "{{count}} છબીઓ કૉપિ કરો",
+      "cullImage_one": "ઓટો કલિંગ",
+      "cullImage_other": "ઓટો કલિંગ",
+      "deleteAssociated": "કાઢી નાખો + સંકળાયેલ",
+      "deleteImage_one": "છબી કાઢી નાખો",
+      "deleteImage_other": "{{count}} છબીઓ કાઢી નાખો",
+      "deleteSelected": "ફક્ત પસંદ કરેલ કાઢી નાખો",
+      "denoise_one": "ડેનોઇઝ",
+      "denoise_other": "ડેનોઇઝ",
+      "superResolution_one": "RapidRes (2x)",
+      "superResolution_other": "RapidRes (2x)",
+      "duplicateImage": "ડુપ્લિકેટ છબી",
+      "enable": "સક્ષમ કરો",
+      "exportImage_one": "છબી નિકાસ કરો",
+      "exportImage_other": "{{count}} છબીઓ નિકાસ કરો",
+      "noAlbums": "કોઈ આલ્બમ્સ ઉપલબ્ધ નથી",
+      "pasteAdjustments_one": "ગોઠવણો પેસ્ટ કરો",
+      "pasteAdjustments_other": "{{count}} છબીઓમાં ગોઠવણો પેસ્ટ કરો",
+      "physicalCopy": "ભૌતિક નકલ",
+      "remove": "દૂર કરો",
+      "removeFromAlbum_one": "આલ્બમમાંથી દૂર કરો",
+      "removeFromAlbum_other": "આલ્બમમાંથી {{count}} છબીઓ દૂર કરો",
+      "renameImage_one": "છબીનું નામ બદલો",
+      "renameImage_other": "{{count}} છબીઓનું નામ બદલો",
+      "resetAdjustments_one": "ગોઠવણો રીસેટ કરો",
+      "resetAdjustments_other": "{{count}} છબીઓ પર ગોઠવણો રીસેટ કરો",
+      "showExplorer": "ફાઇલ એક્સપ્લોરરમાં બતાવો",
+      "virtualCopy": "વર્ચ્યુઅલ કૉપિ"
+    },
+    "toasts": {
+      "couldNotShowExplorer": "એક્સપ્લોરરમાં ફાઇલ બતાવી શકાઈ નથી: {{err}}",
+      "couldNotShowFolder": "ફોલ્ડર બતાવી શકાયું નથી: {{err}}",
+      "editInFailed": "{{app}} નિષ્ફળ: {{err}}",
+      "editInNoOutput": "{{app}} સાચવ્યા વિના બંધ.",
+      "editInWaiting": "{{app}}ની રાહ જોઈ રહ્યાં છીએ. ફાઇલને પાછી લાવવા માટે ત્યાં સાચવો અથવા રાહ જોવાનું બંધ કરવા માટે આ સંદેશને બંધ કરો.",
+      "failedAddToAlbum": "આલ્બમમાં ઉમેરવામાં નિષ્ફળ: {{err}}",
+      "failedApplyAuto": "સ્વતઃ ગોઠવણો લાગુ કરવામાં નિષ્ફળ: {{err}}",
+      "failedChangeIcon": "આયકન બદલવામાં નિષ્ફળ: {{err}}",
+      "failedCopy": "ફાઇલોની નકલ કરવામાં નિષ્ફળ: {{err}}",
+      "failedCreateVirtualCopy": "વર્ચ્યુઅલ કૉપિ બનાવવામાં નિષ્ફળ: {{err}}",
+      "failedDelete": "કાઢી નાખવામાં નિષ્ફળ: {{err}}",
+      "failedDeleteFolder": "ફોલ્ડર કાઢી નાખવામાં નિષ્ફળ: {{err}}",
+      "failedDuplicate": "ફાઇલ ડુપ્લિકેટ કરવામાં નિષ્ફળ: {{err}}",
+      "failedMove": "ફાઇલો ખસેડવામાં નિષ્ફળ: {{err}}",
+      "failedMoveError": "ખસેડવામાં નિષ્ફળ: {{err}}",
+      "failedMoveInvalid": "ખસેડવામાં નિષ્ફળ: લક્ષ્ય જૂથ મળ્યું નથી અથવા અમાન્ય છે.",
+      "failedRemoveImages": "છબીઓ દૂર કરવામાં નિષ્ફળ: {{err}}"
+    }
+  },
+  "editor": {
+    "adjustments": {
+      "actions": {
+        "copySectionSettings": "{{section}} સેટિંગ્સ કૉપિ કરો",
+        "customizePanels": "પેનલ્સને કસ્ટમાઇઝ કરો",
+        "pasteLabel": "{{section}} સેટિંગ્સ પેસ્ટ કરો",
+        "pasteSettings": "સેટિંગ્સ પેસ્ટ કરો",
+        "resetPanelLayout": "ડિફોલ્ટ પર ફરીથી સેટ કરો",
+        "resetSectionSettings": "{{section}} સેટિંગ્સ રીસેટ કરો"
+      },
+      "sections": {
+        "basic": "મૂળભૂત",
+        "color": "રંગ",
+        "curves": "વણાંકો",
+        "details": "વિગતો",
+        "effects": "અસરો"
+      },
+      "title": "ગોઠવણો",
+      "tooltips": {
+        "autoAdjust": "છબી સ્વતઃ સમાયોજિત કરો",
+        "hideFromPanel": "પેનલમાંથી છુપાવો",
+        "resetAdjustments": "ગોઠવણો રીસેટ કરો",
+        "showInPanel": "પેનલમાં બતાવો",
+        "toggleAnalytics": "એનાલિટિક્સ ડિસ્પ્લેને ટૉગલ કરો"
+      }
+    },
+    "ai": {
+      "actions": {
+        "addNewComponent": "નવો ઘટક ઉમેરો",
+        "copyComponent": "કોમ્પોનન્ટની નકલ કરો",
+        "copyEdit": "કૉપિ એડિટ",
+        "deleteComponent": "ઘટક કાઢી નાખો",
+        "deleteEdit": "સંપાદન કાઢી નાખો",
+        "duplicateAndInvertComponent": "ડુપ્લિકેટ અને ઇન્વર્ટ કમ્પોનન્ટ",
+        "duplicateAndInvertEdit": "ડુપ્લિકેટ અને ઇન્વર્ટ એડિટ",
+        "duplicateComponent": "ડુપ્લિકેટ ઘટક",
+        "duplicateEdit": "ડુપ્લિકેટ સંપાદન",
+        "hideEdit": "સંપાદન છુપાવો",
+        "intersectEditWith": "સાથે સંપાદન છેદે છે",
+        "pasteComponent": "પેસ્ટ કમ્પોનન્ટ",
+        "pasteEdit": "સંપાદન પેસ્ટ કરો",
+        "rename": "નામ બદલો",
+        "resetSelection": "પસંદગી રીસેટ કરો",
+        "showEdit": "સંપાદન બતાવો",
+        "subtractFromEdit": "સંપાદનમાંથી બાદ કરો",
+        "switchToAdd": "ઉમેરો પર સ્વિચ કરો",
+        "switchToIntersect": "આંતરછેદ પર સ્વિચ કરો",
+        "switchToSubtract": "બાદબાકી પર સ્વિચ કરો"
+      },
+      "addNewEdit": "નવું સંપાદન ઉમેરો",
+      "brush": {
+        "add": "ઉમેરો",
+        "erase": "ભૂંસી નાખો",
+        "feather": "બ્રશ ફેધર",
+        "size": "બ્રશનું કદ"
+      },
+      "cloneHeal": {
+        "cloneTooltip": "સ્ત્રોતની બરાબર નકલ કરો, તેની તેજ અને રંગ સહિત",
+        "dragSource": "સ્ત્રોતને ખસેડવા માટે ખેંચો",
+        "healTooltip": "સ્ત્રોતની રચનાની નકલ કરો અને તેને આસપાસની તેજ અને રંગમાં ભેળવો",
+        "hintActive": "પિક્સેલ્સ ક્યાંથી આવે છે તે પસંદ કરવા માટે સ્ત્રોત રૂપરેખાને ખેંચો. દરેક નવો સ્ટ્રોક તેની પોતાની જગ્યા બની જાય છે. આમાં ઉમેરવા માટે Shift દબાવી રાખો.",
+        "hintEmpty": "સ્થળ, વાયર અથવા વિક્ષેપ પર પેઇન્ટ કરો. મેળ ખાતો સ્ત્રોત આપોઆપ મળી જાય છે.",
+        "mode": "મોડ",
+        "newSource": "અન્ય સ્ત્રોત શોધો"
+      },
+      "comingSoon": "ટૂંક સમયમાં આવી રહ્યું છે",
+      "connection": {
+        "backendLabel": "AI બેકએન્ડ:",
+        "builtinDesc": "મૂળભૂત બિલ્ટ-ઇન AI નો ઉપયોગ કરીને. જનરેટિવ રિપ્લેસ માટે સેટિંગ્સમાં ક્લાઉડ અથવા AI કનેક્ટર પસંદ કરો.",
+        "builtinLabel": "બિલ્ટ-ઇન AI:",
+        "cloudLabel": "ક્લાઉડ AI:",
+        "connectorConnectedDesc": "સ્થાનિક જનરેટિવ બેકએન્ડ સાથે જોડાયેલ.",
+        "connectorDisconnectedDesc": "માત્ર સાદા ચિત્રકામ ઉપલબ્ધ છે. તમારું સ્થાનિક બેકએન્ડ શરૂ કરો.",
+        "connectorLabel": "AI કનેક્ટર:",
+        "loginRequiredDesc": "Cloud AI નો ઉપયોગ કરવા માટે સેટિંગ્સ દ્વારા લોગ ઇન કરો.",
+        "monthlyUsage": "માસિક ઉપયોગ",
+        "notDetected": "શોધાયેલ નથી",
+        "notLoggedIn": "લૉગ ઇન નથી",
+        "proRequiredDesc": "પ્રો સબ્સ્ક્રિપ્શન આવશ્યક છે. સેટિંગ્સમાં અપગ્રેડ કરો.",
+        "ready": "તૈયાર",
+        "upgradeRequired": "અપગ્રેડ જરૂરી છે"
+      },
+      "createNewTitle": "નવું જનરેટિવ એડિટ બનાવો",
+      "createNewTooltip": "નવું {{name}} સંપાદન બનાવો",
+      "denoising": "AI ડીનોઈઝ ચાલી રહ્યું છે...",
+      "upscaling": "ચાલી રહ્યું છે RapidRes...",
+      "dropzoneText": "નવું સંપાદન બનાવવા માટે અહીં મૂકો",
+      "editSettingsTitle": "સેટિંગ્સ સંપાદિત કરો",
+      "editsTitle": "સંપાદનો",
+      "generatingDepthMap": "AI ડેપ્થ મેપની ગણતરી કરી રહ્યાં છીએ...",
+      "generatingNormalMap": "AI સામાન્ય નકશાની ગણતરી કરી રહ્યું છે...",
+      "generativeEditTitle": "જનરેટિવ એડિટ",
+      "inpaintingTitle": "ઇનપેઇન્ટિંગ",
+      "liquify": {
+        "mode": "લિક્વિફાઇ મોડ",
+        "modes": {
+          "expand": "વિસ્તૃત કરો",
+          "pinch": "ચપટી",
+          "push": "દબાણ કરો",
+          "twirl": "ટ્વીરલ"
+        }
+      },
+      "manualCleanupTitle": "મેન્યુઅલ ક્લિનઅપ",
+      "noImageSelected": "કોઈ છબી પસંદ કરી નથી.",
+      "params": {
+        "feather": "ફેધર",
+        "grow": "વધારો",
+        "intensity": "તીવ્રતા",
+        "pressure": "દબાણ"
+      },
+      "patches": {
+        "aiEdit": "AI સંપાદન {{count}}",
+        "aiEdit_one": "AI સંપાદન {{count}}",
+        "aiEdit_other": "AI સંપાદન {{count}}",
+        "clone": "ક્લોન {{count}}",
+        "clone_one": "ક્લોન {{count}}",
+        "clone_other": "ક્લોન {{count}}",
+        "heal": "હીલ {{count}}",
+        "heal_one": "હીલ {{count}}",
+        "heal_other": "હીલ {{count}}",
+        "invertedName": "{{name}} ઊંધી",
+        "liquify": "લિક્વિફાઇ {{count}}",
+        "liquify_one": "લિક્વિફાઇ {{count}}",
+        "liquify_other": "લિક્વિફાઇ {{count}}",
+        "quickErase": "ઝડપી ભૂંસી નાખવું {{count}}",
+        "quickErase_one": "ઝડપી ભૂંસી નાખવું {{count}}",
+        "quickErase_other": "ઝડપી ભૂંસી નાખવું {{count}}",
+        "retouch": "રીટચ {{count}}",
+        "retouch_one": "રીટચ {{count}}",
+        "retouch_other": "રીટચ {{count}}"
+      },
+      "resetInpaintingTooltip": "ઇનપેઇન્ટિંગ રીસેટ કરો",
+      "settings": {
+        "aiModelDownloading": "AI મોડલ ડાઉનલોડિંગ:",
+        "basicInpaintTooltipDisabled": "જનરેટિવ બેકએન્ડ ઉપલબ્ધ નથી અથવા રૂપરેખાંકિત નથી. મૂળભૂત ચિત્રકામ જરૂરી છે.",
+        "basicInpaintTooltipEnabled": "મૂળભૂત ચિત્રકામ ઝડપી છે પરંતુ જનરેટિવ નથી. ટેક્સ્ટ પ્રોમ્પ્ટ સાથે જનરેટિવ AI નો ઉપયોગ કરવા માટે અનચેક કરો.",
+        "cancelGeneration": "જનરેશન રદ કરો",
+        "componentPropertiesTitle": "{{name}} ગુણધર્મો",
+        "downloading": "ડાઉનલોડ કરી રહ્યું છે:",
+        "fastInpaintDesc": "આસપાસના પિક્સેલના આધારે પસંદગી ભરો.",
+        "generateWithAiButton": "AI સાથે જનરેટ કરો",
+        "generating": "જનરેટ કરી રહ્યું છે...",
+        "generativeDesc": "તમે પસંદ કરેલ વિસ્તારમાં શું જનરેટ કરવા માંગો છો તેનું વર્ણન કરો.",
+        "generativeReplaceTitle": "જનરેટિવ રિપ્લેસ",
+        "inpaintSelectionButton": "ઇનપેઇન્ટ પસંદગી",
+        "invertComponent": "ઇન્વર્ટ કમ્પોનન્ટ",
+        "invertSelection": "ઊંધી પસંદગી",
+        "placeholder": "દા.ત., ફૂલોનું ક્ષેત્ર",
+        "quickEraseDesc": "ઑબ્જેક્ટ દૂર કરવા માટે પસંદગી ભરો.",
+        "selectionPropertiesTitle": "પસંદગી ગુણધર્મો",
+        "useBasicInpaint": "મૂળભૂત ચિત્રકામનો ઉપયોગ કરો"
+      },
+      "touchUpTitle": "ટચ અપ"
+    },
+    "compare": {
+      "horizontal": "સ્પ્લિટ ટોપ / બોટમ",
+      "sideBySide": "બાજુમાં",
+      "title": "પહેલાં / પછી",
+      "toggle": "સંપૂર્ણ મૂળ",
+      "vertical": "ડાબે/જમણે વિભાજિત કરો"
+    },
+    "crop": {
+      "aspectRatioHeading": "આસ્પેક્ટ રેશિયો",
+      "autoStraightenFailed": "સ્વતઃ સીધું નિષ્ફળ થયું: {{error}}",
+      "autoStraightenNoLines": "થી લેવલ કરવા માટે કોઈ સીધી રેખાઓ મળી નથી",
+      "custom": {
+        "hPlaceholder": "H",
+        "hTooltip": "ઊંચાઈ",
+        "removeTooltip": "સાચવેલ આસ્પેક્ટ રેશિયો દૂર કરો",
+        "saveTooltip": "આસ્પેક્ટ રેશિયોને પ્રીસેટ તરીકે સાચવો",
+        "savedTooltip": "સાચવેલ આસ્પેક્ટ રેશિયો {{ratio}}",
+        "wPlaceholder": "W",
+        "wTooltip": "પહોળાઈ"
+      },
+      "geometryHeading": "ભૂમિતિ",
+      "labels": {
+        "flipHoriz": "ફ્લિપ હોરિઝ",
+        "flipVert": "ફ્લિપ વર્ટ",
+        "lens": "લેન્સ",
+        "rotateLeft": "ડાબે ફેરવો",
+        "rotateRight": "જમણે ફેરવો",
+        "transform": "ટ્રાન્સફોર્મ"
+      },
+      "orientationHeading": "ઓરિએન્ટેશન",
+      "overlays": {
+        "armature": {
+          "desc": "આર્મેચર",
+          "name": "આર્મેચર"
+        },
+        "center": {
+          "desc": "કેન્દ્ર રેખાઓ",
+          "name": "કેન્દ્ર"
+        },
+        "diagonal": {
+          "desc": "વિકર્ણ રેખાઓ",
+          "name": "વિકર્ણ રેખાઓ"
+        },
+        "none": {
+          "desc": "કોઈ ઓવરલે નથી",
+          "name": "કોઈ નહીં"
+        },
+        "phiGrid": {
+          "desc": "ફી ગ્રીડ (ગોલ્ડન રેશિયો)",
+          "name": "ફી ગ્રીડ"
+        },
+        "spiral": {
+          "desc": "ગોલ્ડન સર્પાકાર (ફિબોનાકી)",
+          "name": "સર્પાકાર"
+        },
+        "thirds": {
+          "desc": "ત્રીજાનો નિયમ",
+          "name": "તૃતીય"
+        },
+        "triangle": {
+          "desc": "સુવર્ણ ત્રિકોણ",
+          "name": "ત્રિકોણ"
+        }
+      },
+      "presets": {
+        "custom": {
+          "name": "કસ્ટમ",
+          "tooltip": "કસ્ટમ આસ્પેક્ટ રેશિયો દાખલ કરો"
+        },
+        "free": {
+          "desc": "ફ્રીફોર્મ ક્રોપ",
+          "name": "ફ્રી"
+        },
+        "original": {
+          "desc": "મૂળ છબીનો આસ્પેક્ટ રેશિયો",
+          "name": "મૂળ"
+        },
+        "r169": {
+          "desc": "16:9 - વાઇડસ્ક્રીન, ડેસ્કટૉપ વૉલપેપર્સ, YouTube",
+          "name": "16:9"
+        },
+        "r219": {
+          "desc": "21:9 - અલ્ટ્રાવાઇડ મોનિટર્સ, સિનેમેટિક",
+          "name": "21:9"
+        },
+        "r32": {
+          "desc": "3:2 - 35mm ફિલ્મ, DSLR કેમેરા",
+          "name": "3:2"
+        },
+        "r43": {
+          "desc": "4:3 - પરંપરાગત મોનિટર, ટેબ્લેટ",
+          "name": "4:3"
+        },
+        "r54": {
+          "desc": "5:4 - Instagram લેન્ડસ્કેપ, 8x10 પ્રિન્ટ",
+          "name": "5:4"
+        },
+        "r6524": {
+          "desc": "65:24 - પેનોરેમિક 35mm પહોળું ફોર્મેટ",
+          "name": "65:24"
+        },
+        "sq": {
+          "desc": "સ્ક્વેર - ઇન્સ્ટાગ્રામ, પ્રોફાઇલ ચિત્રો",
+          "name": "1:1"
+        }
+      },
+      "resetTooltip": "ક્રોપ અને ટ્રાન્સફોર્મ રીસેટ કરો",
+      "rotationHeading": "પરિભ્રમણ",
+      "title": "ક્રોપ અને ટ્રાન્સફોર્મ",
+      "tooltips": {
+        "autoStraighten": "સ્વતઃ સીધા કરો (Shift+S)",
+        "compositionOverlay": "રચના ઓવરલે",
+        "flipHoriz": "છબીને આડી રીતે ફ્લિપ કરો",
+        "flipVert": "છબીને ઊભી રીતે ફ્લિપ કરો",
+        "lens": "લેન્સ વિકૃતિ સુધારણા",
+        "overlayDetails": "ઓવરલે: {{name}}{{rotateHint}}",
+        "resetFineRotation": "ફાઇન રોટેશન રીસેટ કરો",
+        "rotateHint": "(ફેરવા માટે Shift+O)",
+        "rotateLeft": "ઘડિયાળની વિરુદ્ધ દિશામાં 90° ફેરવો",
+        "rotateRight": "90° ઘડિયાળની દિશામાં ફેરવો",
+        "straighten": "સીધું સાધન (એસ)",
+        "switchOrientation": "ઓરિએન્ટેશન સ્વિચ કરો",
+        "switchToLandscape": "લેન્ડસ્કેપ પર સ્વિચ કરો",
+        "switchToPortrait": "પોટ્રેટ પર સ્વિચ કરો",
+        "transform": "પરિપ્રેક્ષ્ય અને કીસ્ટોન કરેક્શન"
+      }
+    },
+    "externalEdit": {
+      "done": "થઈ ગયું",
+      "exporting": "નિકાસ કરી રહ્યું છે...",
+      "savesTo": "બાહ્ય સંપાદન — આમાં સાચવે છે"
+    },
+    "guided": {
+      "cancel": "રદ કરો",
+      "drawingActive": "ડ્રોઇંગ સક્રિય",
+      "hint": "તમારા ફોટામાં ધાર સાથે દોરો જે ઊભી અથવા આડી હોવી જોઈએ.",
+      "linesStatus": "સક્રિય માર્ગદર્શિકા રેખાઓ",
+      "toast": {
+        "angleRejected": "રેખા કોણ આડી અથવા ઊભીથી ખૂબ દૂર છે",
+        "maxLines": "મહત્તમ 2 ઊભી અને 2 આડી રેખાઓ માન્ય છે"
+      }
+    },
+    "layout": {
+      "split": "વિભાજન"
+    },
+    "masks": {
+      "actions": {
+        "addNewComponent": "નવો ઘટક ઉમેરો",
+        "applyPreset": "પ્રીસેટ લાગુ કરો",
+        "copyComponent": "કોમ્પોનન્ટની નકલ કરો",
+        "copyMask": "કોપી માસ્ક",
+        "deleteComponent": "ઘટક કાઢી નાખો",
+        "deleteMask": "માસ્ક કાઢી નાખો",
+        "duplicateAndInvertComponent": "ડુપ્લિકેટ અને ઇન્વર્ટ કમ્પોનન્ટ",
+        "duplicateAndInvertMask": "ડુપ્લિકેટ અને ઇન્વર્ટ માસ્ક",
+        "duplicateComponent": "ડુપ્લિકેટ ઘટક",
+        "duplicateMask": "ડુપ્લિકેટ માસ્ક",
+        "hideComponent": "ઘટક છુપાવો",
+        "hideMask": "માસ્ક છુપાવો",
+        "intersectMaskWith": "માસ્ક સાથે છેદે છે",
+        "noPresets": "કોઈ પ્રીસેટ્સ નથી",
+        "pasteComponent": "પેસ્ટ કમ્પોનન્ટ",
+        "pasteMask": "માસ્ક પેસ્ટ કરો",
+        "pasteMaskAdjustments": "માસ્ક ગોઠવણો પેસ્ટ કરો",
+        "rename": "નામ બદલો",
+        "resetMaskAdjustments": "માસ્ક ગોઠવણો રીસેટ કરો",
+        "showComponent": "ઘટક બતાવો",
+        "showMask": "માસ્ક બતાવો",
+        "subtractFromMask": "માસ્કમાંથી બાદ કરો",
+        "switchToAdd": "ઉમેરો પર સ્વિચ કરો",
+        "switchToIntersect": "આંતરછેદ પર સ્વિચ કરો",
+        "switchToSubtract": "બાદબાકી પર સ્વિચ કરો"
+      },
+      "addNewMask": "નવો માસ્ક ઉમેરો",
+      "aiTitle": "AI પસંદગીઓ",
+      "basicTitle": "મૂળભૂત સાધનો",
+      "brush": {
+        "brush": "બ્રશ",
+        "eraser": "ઇરેઝર",
+        "feather": "બ્રશ ફેધર",
+        "flow": "પ્રવાહ",
+        "size": "બ્રશનું કદ"
+      },
+      "comingSoon": "ટૂંક સમયમાં આવી રહ્યું છે",
+      "depthRange": {
+        "far": "દૂર",
+        "near": "નજીક",
+        "reset": "રીસેટ કરો",
+        "title": "ઊંડાઈ શ્રેણી"
+      },
+      "dropzoneText": "નવો માસ્ક બનાવવા માટે અહીં મૂકો",
+      "maskAdjustmentsTitle": "માસ્ક ગોઠવણો",
+      "maskingTitle": "માસ્કીંગ",
+      "masksTitle": "માસ્ક",
+      "params": {
+        "feather": "ફેધર",
+        "globalFeather": "ગ્લોબલ ફેધર",
+        "grow": "વધારો",
+        "tolerance": "સહનશીલતા"
+      },
+      "patches": {
+        "copyName": "{{name}} કૉપિ",
+        "invertedName": "{{name}} ઊંધી",
+        "maskName": "માસ્ક {{count}}",
+        "maskName_one": "માસ્ક {{count}}",
+        "maskName_other": "માસ્ક {{count}}"
+      },
+      "rangeTitle": "શ્રેણી અને વૈશ્વિક",
+      "resetMaskingTooltip": "માસ્કિંગ રીસેટ કરો",
+      "settings": {
+        "aiModelDownloading": "AI મોડલ ડાઉનલોડિંગ:",
+        "applyPreset": "પ્રીસેટ લાગુ કરો",
+        "componentPropertiesTitle": "{{name}} ગુણધર્મો",
+        "copySectionSettings": "{{section}} સેટિંગ્સ કૉપિ કરો",
+        "faceParts": {
+          "bodySkin": "શરીરની ચામડી",
+          "eyeWhites": "આંખની સફેદી",
+          "eyebrows": "ભમર",
+          "faceSkin": "ચહેરાની ત્વચા",
+          "hair": "વાળ",
+          "iris": "આઇરિસ અને વિદ્યાર્થી",
+          "lips": "હોઠ",
+          "nose": "નાક",
+          "teeth": "દાંત"
+        },
+        "generateTextMask": "માસ્ક જનરેટ કરો",
+        "invertComponent": "ઇન્વર્ટ કમ્પોનન્ટ",
+        "invertMask": "ઇન્વર્ટ માસ્ક",
+        "maskPropertiesTitle": "માસ્ક પ્રોપર્ટીઝ",
+        "noPresetsFound": "કોઈ પ્રીસેટ્સ મળ્યા નથી",
+        "opacity": "ઓપેસિટી",
+        "pasteSectionSettings": "{{section}} સેટિંગ્સ પેસ્ટ કરો",
+        "pasteSettings": "સેટિંગ્સ પેસ્ટ કરો",
+        "resetSectionSettings": "{{section}} સેટિંગ્સ રીસેટ કરો",
+        "select": "પસંદ કરો",
+        "selectPresetTooltip": "લાગુ કરવા માટે પ્રીસેટ પસંદ કરો",
+        "textPromptPlaceholder": "દા.ત., વ્યક્તિ, કાર, પાણી"
+      },
+      "toggleAnalyticsInAdjustments": "એડજસ્ટમેન્ટ પેનલમાં એનાલિટિક્સ ટૉગલ કરો",
+      "toggleAnalyticsTooltip": "એનાલિટિક્સ ડિસ્પ્લેને ટૉગલ કરો",
+      "tooltips": {
+        "addToCurrent": "વર્તમાન માસ્કમાં {{name}} ઉમેરો અથવા નવું બનાવો (જમણું-ક્લિક કરો)",
+        "createNew": "નવો {{name}} માસ્ક બનાવો"
+      }
+    },
+    "metadata": {
+      "author": {
+        "creatorDetails": "સર્જકની વિગતો",
+        "title": "લેખક અને કૉપિરાઇટ"
+      },
+      "camera": {
+        "aperture": "એપર્ચર",
+        "focalLength": "ફોકલ લેન્થ",
+        "iso": "ISO",
+        "lens": "લેન્સ",
+        "shutterSpeed": "શટર ઝડપ",
+        "title": "કેમેરાની વિગતો"
+      },
+      "clickToEdit": "ફેરફાર કરવા માટે ક્લિક કરો",
+      "copied": "નકલ કરેલ",
+      "copy": "કૉપિ",
+      "emptyClickToAdd": "ખાલી (ઉમેરવા માટે ક્લિક કરો)",
+      "extendedExif": {
+        "title": "વિસ્તૃત EXIF"
+      },
+      "fields": {
+        "author": "લેખક",
+        "comments": "ટિપ્પણીઓ",
+        "copyright": "કૉપિરાઇટ",
+        "title": "શીર્ષક"
+      },
+      "fileInfo": {
+        "dimensions": "{{width}} × {{height}} px • {{megapixels}} MP",
+        "dimensionsNoMp": "{{width}} × {{height}} px",
+        "emptyDimensions": "- × - px",
+        "title": "ફાઇલ માહિતી",
+        "virtualCopy": "વર્ચ્યુઅલ કૉપિ"
+      },
+      "gps": {
+        "altitude": "ઊંચાઈ",
+        "clickToOpenTooltip": "નવી ટેબમાં નકશો ખોલવા માટે ક્લિક કરો",
+        "latitude": "અક્ષાંશ",
+        "longitude": "રેખાંશ",
+        "title": "જીપીએસ સ્થાન"
+      },
+      "organization": {
+        "addTagPlaceholder": "ટેગ ઉમેરો...",
+        "colorLabel": "રંગ લેબલ",
+        "noTags": "કોઈ ટૅગ્સ નથી",
+        "none": "કોઈ નહીં",
+        "rating": "રેટિંગ",
+        "ratingLabels": "રેટિંગ અને લેબલ્સ",
+        "tags": "ટૅગ્સ",
+        "title": "સંસ્થા"
+      },
+      "title": "મેટાડેટા"
+    },
+    "presets": {
+      "amount": "માત્રા",
+      "dialog": {
+        "allPresetFiles": "બધી પ્રીસેટ ફાઇલો",
+        "exportAllTitle": "બધા પ્રીસેટ્સ નિકાસ કરો",
+        "exportTitle": "નિકાસ {{type}}",
+        "importPresetsTitle": "પ્રીસેટ્સ આયાત કરો",
+        "legacyPreset": "લેગસી પ્રીસેટ",
+        "presetFile": "પ્રીસેટ ફાઇલ",
+        "rapidRawPreset": "AfterEvents પ્રીસેટ"
+      },
+      "menu": {
+        "configurePreset": "પ્રીસેટ ગોઠવો",
+        "deleteFolder": "ફોલ્ડર કાઢી નાખો",
+        "deletePreset": "પ્રીસેટ કાઢી નાખો",
+        "duplicatePreset": "ડુપ્લિકેટ પ્રીસેટ",
+        "exportFolder": "ફોલ્ડર નિકાસ કરો",
+        "exportPreset": "પ્રીસેટ નિકાસ કરો",
+        "newFolder": "નવું ફોલ્ડર",
+        "newPreset": "નવું પ્રીસેટ",
+        "overwrite": "ઓવરરાઇટ કરો",
+        "renameFolder": "ફોલ્ડરનું નામ બદલો",
+        "sortAll": "બધાને મૂળાક્ષરો પ્રમાણે સૉર્ટ કરો"
+      },
+      "status": {
+        "empty": "હજુ સુધી કોઈ પ્રીસેટ્સ સાચવેલ નથી. તમારું પોતાનું બનાવો, ફાઇલમાંથી આયાત કરો અથવા સમુદાય પ્રીસેટ્સનું અન્વેષણ કરો.",
+        "getCommunity": "સમુદાય પ્રીસેટ્સ મેળવો",
+        "loading": "પ્રીસેટ્સ લોડ કરી રહ્યું છે..."
+      },
+      "supports": {
+        "cropTransform": "ક્રોપ અને ટ્રાન્સફોર્મ",
+        "label": "સપોર્ટ કરે છે {{features}}",
+        "masks": "માસ્ક"
+      },
+      "title": "પ્રીસેટ્સ",
+      "tooltips": {
+        "explore": "સમુદાય પ્રીસેટ્સનું અન્વેષણ કરો",
+        "export": "બધા પ્રીસેટ્સને .rrpreset ફાઇલમાં નિકાસ કરો",
+        "import": ".rrpreset ફાઇલમાંથી પ્રીસેટ્સ આયાત કરો",
+        "saveNew": "નવા પ્રીસેટ તરીકે સાચવો"
+      },
+      "types": {
+        "folder": "ફોલ્ડર",
+        "preset": "પ્રીસેટ",
+        "style": "શૈલી",
+        "tool": "સાધન"
+      }
+    },
+    "speedEdit": {
+      "copied": "કૉપિ કરેલ <0>{{label}}</0> <1>{{value}}</1>",
+      "pasted": "<0>{{label}}</0> <1>{{value}}</1> પેસ્ટ કર્યું"
+    },
+    "switcher": {
+      "tooltips": {
+        "adjust": "એડજસ્ટ કરો",
+        "crop": "ક્રોપ",
+        "export": "નિકાસ કરો",
+        "info": "માહિતી",
+        "inpaint": "ઇનપેઇન્ટ",
+        "masks": "માસ્ક",
+        "presets": "પ્રીસેટ્સ",
+        "tethering": "ટિથરિંગ"
+      }
+    },
+    "toolbar": {
+      "history": "ઇતિહાસ",
+      "switchToVariant": "{{label}} પર સ્વિચ કરો",
+      "tooltips": {
+        "aperture": "એપર્ચર",
+        "backToLibrary": "લાઇબ્રેરી પર પાછા",
+        "compare": "પહેલાં / પછી (B) અથવા મોડ્સ (જમણું-ક્લિક કરો)",
+        "focalLength": "ફોકલ લેન્થ",
+        "fullscreen": "પૂર્ણસ્ક્રીન ટૉગલ કરો (F)",
+        "iso": "ISO",
+        "redo": "ફરી કરો (Ctrl+Y) અથવા ઇતિહાસ (જમણું-ક્લિક કરો)",
+        "shutterSpeed": "શટર ઝડપ",
+        "undo": "પૂર્વવત્ કરો (Ctrl+Z) અથવા ઇતિહાસ (જમણું-ક્લિક કરો)"
+      },
+      "vc": "VC"
+    },
+    "viewer": {
+      "openFailed": "બીજી વિન્ડો ખોલી શકાઈ નથી: {{error}}",
+      "windowTitle": "AfterEvents દર્શક"
+    }
+  },
+  "export": {
+    "advanced": {
+      "exportMasks": "અલગ ફાઇલો તરીકે માસ્ક નિકાસ કરો",
+      "exportOriginal": "મૂળ નિકાસ પણ કરો",
+      "originalCrop": "ક્રોપ લાગુ કરો",
+      "originalKeepExposure": "એક્સપોઝર રાખો",
+      "preserveFolders": "ફોલ્ડર સ્ટ્રક્ચર સાચવો",
+      "preserveTimestamps": "EXIF કેપ્ચર તારીખથી ફાઇલ ટાઇમસ્ટેમ્પ સેટ કરો",
+      "title": "નિકાસ સેટિંગ્સ"
+    },
+    "border": {
+      "addBorder": "બોર્ડર ઉમેરો",
+      "bases": {
+        "eachEdge": "દરેક સંબંધિત ધાર",
+        "longEdge": "સૌથી લાંબી ધાર",
+        "shortEdge": "સૌથી ટૂંકી ધાર"
+      },
+      "basis": "જાડાઈનો આધાર",
+      "color": "બોર્ડરનો રંગ",
+      "invalidPercent": "બંને માટે 0 અને 100 ની વચ્ચેનો નંબર દાખલ કરો.",
+      "leftRight": "ડાબે અને જમણે",
+      "percent": "%",
+      "topBottom": "ટોપ અને બોટમ"
+    },
+    "bytes": {
+      "bytes": "બાઇટ્સ",
+      "gb": "જીબી",
+      "kb": "KB",
+      "mb": "MB",
+      "tb": "ટીબી"
+    },
+    "destination": {
+      "customFolder": "કસ્ટમ ફોલ્ડર",
+      "originalFolder": "મૂળ છબી ફોલ્ડર",
+      "subfolder": "સબફોલ્ડર",
+      "subfolderPlaceholder": "દા.ત. અંતિમ, વેબપી"
+    },
+    "dialog": {
+      "saveEditedImageTitle": "સંપાદિત છબી સાચવો",
+      "selectFolderTitle": "નિકાસ કરવા માટે ફોલ્ડર પસંદ કરો {{count}} છબી(ઓ)",
+      "selectFolderTitle_one": "{{count}} છબી નિકાસ કરવા માટે ફોલ્ડર પસંદ કરો",
+      "selectFolderTitle_other": "{{count}} છબીઓને નિકાસ કરવા માટે ફોલ્ડર પસંદ કરો"
+    },
+    "file": {
+      "dpi": "DPI",
+      "quality": "ગુણવત્તા",
+      "qualityLossless": "ગુણવત્તા (નુકસાન રહિત)",
+      "resolution": "રિઝોલ્યુશન",
+      "tiffBitDepth": "TIFF બીટ ઊંડાઈ",
+      "tiffBitDepth16": "16-બીટ",
+      "tiffBitDepth8": "8-બીટ"
+    },
+    "labels": {
+      "image": "છબી",
+      "image_plural": "છબીઓ",
+      "lut": "LUT",
+      "lut_plural": "LUTs"
+    },
+    "metadata": {
+      "removeGps": "GPS ડેટા દૂર કરો",
+      "saveWithMetadata": "મેટાડેટા સાથે સાચવો"
+    },
+    "pad": {
+      "aspectRatio": "આસ્પેક્ટ રેશિયો",
+      "backgroundColor": "પૃષ્ઠભૂમિ રંગ",
+      "invalidRatio": "પહોળાઈ અને ઊંચાઈ બંને માટે હકારાત્મક સંખ્યા દાખલ કરો.",
+      "padToAspectRatio": "આસ્પેક્ટ રેશિયો સુધી પેડ કરો",
+      "ratioHeight": "આસ્પેક્ટ રેશિયો ઊંચાઈ",
+      "ratioWidth": "આસ્પેક્ટ રેશિયો પહોળાઈ"
+    },
+    "resize": {
+      "dontEnlarge": "મોટું કરશો નહીં",
+      "modes": {
+        "height": "ઊંચાઈ",
+        "longEdge": "લાંબી ધાર",
+        "shortEdge": "શોર્ટ એજ",
+        "width": "પહોળાઈ"
+      },
+      "pixels": "પિક્સેલ્સ",
+      "resizeToFit": "ફીટ કરવા માટે માપ બદલો"
+    },
+    "sections": {
+      "advanced": "અદ્યતન",
+      "destination": "ગંતવ્ય",
+      "fileNaming": "ફાઇલ નામકરણ",
+      "fileSettings": "ફાઇલ સેટિંગ્સ",
+      "imageSizing": "છબીનું કદ",
+      "metadata": "મેટાડેટા",
+      "watermark": "વોટરમાર્ક"
+    },
+    "status": {
+      "cancelExport": "નિકાસ રદ કરો",
+      "cancelled": "નિકાસ રદ",
+      "cancelling": "નિકાસ રદ કરી રહ્યું છે...",
+      "estimatedAverageSize": "({{size}} સરેરાશ)",
+      "estimatedSize": "અંદાજિત ફાઇલ કદ: ~{{size}}",
+      "estimatedTotalSize": "અંદાજિત કુલ કદ: ~{{size}}",
+      "estimatingSize": "અંદાજિત કદ...",
+      "exportMultiple": "નિકાસ {{count}} {{label}}",
+      "exportMultiple_one": "નિકાસ {{count}} {{label}}",
+      "exportMultiple_other": "નિકાસ {{count}} {{label}}",
+      "exportSingle": "નિકાસ {{label}}",
+      "exporting": "નિકાસ કરી રહ્યું છે...",
+      "exportingProgress": "નિકાસ કરી રહ્યું છે... ({{current}}/{{total}})",
+      "failed": "નિકાસ નિષ્ફળ",
+      "noImageSelected": "નિકાસ માટે કોઈ છબી પસંદ કરી નથી.",
+      "noImagesSelected": "કોઈ છબીઓ પસંદ કરી નથી.",
+      "success": "નિકાસ સફળ!"
+    },
+    "title": "નિકાસ કરો",
+    "watermark": {
+      "addWatermark": "વોટરમાર્ક ઉમેરો",
+      "anchors": {
+        "bottomCenter": "બોટમ સેન્ટર",
+        "bottomLeft": "નીચે ડાબે",
+        "bottomRight": "નીચે જમણે",
+        "center": "કેન્દ્ર",
+        "centerLeft": "મધ્યમાં ડાબે",
+        "centerRight": "કેન્દ્ર અધિકાર",
+        "topCenter": "ટોચનું કેન્દ્ર",
+        "topLeft": "ઉપર ડાબે",
+        "topRight": "ઉપર જમણે"
+      },
+      "logoText": "લોગો",
+      "opacity": "ઓપેસિટી",
+      "previewText": "પૂર્વાવલોકન",
+      "scale": "સ્કેલ",
+      "spacing": "અંતર",
+      "watermarkImage": "વોટરમાર્ક છબી"
+    }
+  },
+  "immich": {
+    "close": {
+      "cancel": "રદ કરો",
+      "closeAnyway": "કોઈપણ રીતે બંધ કરો",
+      "message": "સંપાદનો Immich માટે રાહ જોઈ રહ્યા છે: {{number}}. તેઓ આ કમ્પ્યુટર પર રહે છે અને આગલી વખતે જ્યારે AfterEvents ચાલે છે અને Immich પહોંચે છે ત્યારે મોકલવામાં આવે છે.",
+      "title": "સંપાદનો હજુ સુધી Immich માં નથી"
+    },
+    "export": {
+      "newAlbum": "નવું આલ્બમ...",
+      "newAlbumName": "આલ્બમનું નામ",
+      "createAlbum": "બનાવો",
+      "newAlbumFailed": "આલ્બમ બનાવી શક્યું નથી: {{error}}",
+      "album": "આલ્બમ",
+      "destination": "Immich",
+      "noAlbum": "કોઈ આલ્બમ નથી",
+      "sourceAlbum": "આલ્બમ જેમાંથી ઇમેજ ખોલવામાં આવી હતી",
+      "withOriginal": "મૂળ પણ અપલોડ કરો",
+      "withOriginalDesc": "સ્થાનિક ફોલ્ડરમાંથી છબીઓ માટે: મૂળ તેના સંપાદનો સાથે અપલોડ કરવામાં આવે છે અને તેની ટોચ પર નિકાસ સ્ટેક કરવામાં આવે છે. Immich ની છબીઓ હંમેશા તેમના મૂળ પર સ્ટેક કરવામાં આવે છે."
+    },
+    "section": {
+      "albums": "આલ્બમ્સ",
+      "empty": "સર્વર પર કોઈ આલ્બમ્સ નથી.",
+      "error": "Immich પહોંચી શકાતું નથી.",
+      "loading": "આલ્બમ્સ લોડ કરી રહ્યું છે...",
+      "refresh": "આલ્બમ રિફ્રેશ કરો",
+      "timeline": "સમયરેખા",
+      "title": "Immich",
+      "unassigned": "કોઈ આલ્બમમાં નથી",
+      "unassignedHint": "છબીઓને આલ્બમમાં ઉમેર્યા વિના તેને અપલોડ કરવા માટે અહીં મૂકો."
+    },
+    "settings": {
+      "apiKey": "API કી",
+      "apiKeyDesc": "આ પરવાનગીઓ સાથે એકાઉન્ટ સેટિંગ્સ → API કી હેઠળ Immich માં એક બનાવો: album.read, album.create, albumAsset.create, albumAsset.delete, asset.read, asset.view, asset.download, asset.upload, asset.update, asset.delete, st.create, st.create.",
+      "connected": "{{user}} (Immich {{version}}) તરીકે કનેક્ટેડ",
+      "description": "લાઇબ્રેરીમાં તમારા Immich સર્વરના ફોટા બ્રાઉઝ કરો અને તેમને સીધા જ સંપાદિત કરો. જ્યારે તમે તેને ખોલો છો ત્યારે ઓરિજિનલ ડાઉનલોડ થાય છે, અને તમારા સંપાદનો Immich માં સાચવવામાં આવે છે, તેથી તે દરેક કમ્પ્યુટર પર સમાન દેખાય છે.",
+      "keyInFile": "ફાઇલમાં સંગ્રહિત માત્ર તમે વાંચી શકો છો: કોઈ ઓળખપત્ર સ્ટોર ઉપલબ્ધ નથી. KDE પર, KDE વૉલેટ સેટિંગ્સમાં સિક્રેટ સર્વિસ ઈન્ટરફેસ ચાલુ કરો અને ફરીથી સાચવો.",
+      "keyInStore": "સિસ્ટમના ઓળખપત્ર સ્ટોરમાં સંગ્રહિત.",
+      "save": "સાચવો",
+      "saved": "સાચવેલ.",
+      "serverUrl": "સર્વર સરનામું",
+      "serverUrlDesc": "તમે બ્રાઉઝરમાં Immich સાથે જે સરનામું ખોલો છો.",
+      "test": "ટેસ્ટ કનેક્શન",
+      "title": "Immich",
+      "working": "કાર્યરત..."
+    },
+    "sync": {
+      "offline": "ઑફલાઇન",
+      "pending": "સંપાદનો Immichની રાહ જોઈ રહ્યા છે: {{number}}"
+    },
+    "toasts": {
+      "editsStayLocal": "{{fileName}} બીજા કોઈનું છે, તેથી Immich તેના માટે સંપાદનો સ્વીકારતું નથી. તમારા સંપાદનો આ કમ્પ્યુટર પર રહે છે.",
+      "backOnline": "Immich ફરીથી પહોંચી શકાય છે, અને તમામ સંપાદનો ત્યાં સાચવવામાં આવે છે.",
+      "downloadFailed": "Immich પરથી ડાઉનલોડ કરી શકાયું નથી: {{error}}",
+      "editsConflict": "{{fileName}} બીજા કમ્પ્યુટર પર પણ સંપાદિત કરવામાં આવ્યું હતું. તમારા સંપાદનો રહે છે, અને અન્ય સંસ્કરણ વર્ચ્યુઅલ નકલ તરીકે રાખવામાં આવે છે.",
+      "offline": "Immich પહોંચી શકાતું નથી. તમારા સંપાદનો અહીં રાખવામાં આવે છે અને તે પાછા આવતાની સાથે જ મોકલવામાં આવે છે.",
+      "transferFailed": "Immichમાં ઉમેરાયેલ નથી: {{number}} ({{error}})",
+      "transferred": "Immichમાં ઉમેર્યું: {{number}}",
+      "transferring": "Immich… {{current}}/{{total}}માં ઉમેરી રહ્યાં છીએ",
+      "trashFailed": "Immichના ટ્રેશમાં ખસેડી શકાયું નથી: {{error}}",
+      "uploaded": "Immich પર અપલોડ કર્યું: {{number}}",
+      "uploadKeptCopy": "{{fileName}} પહેલાથી જ અન્ય સંપાદનો સાથે Immich માં છે. તે રહે છે, અને તમારા સંપાદનો વર્ચ્યુઅલ નકલ તરીકે રાખવામાં આવે છે."
+    }
+  },
+  "library": {
+    "aiJobs": {
+      "discard": "બાકી AI પ્રોસેસિંગને કાઢી નાખો",
+      "failed": "નિષ્ફળ ({{failedCount}})",
+      "kinds": {
+        "denoise": "AI ડીનોઈઝિંગ",
+        "upscale": "RapidRes અપસ્કેલિંગ",
+        "depthMap": "ઊંડાણનું વિશ્લેષણ",
+        "depthMask": "ડેપ્થ માસ્ક જનરેટ કરી રહ્યું છે",
+        "faceMask": "ફેસ માસ્ક જનરેટ કરી રહ્યું છે",
+        "foregroundMask": "ફોરગ્રાઉન્ડ માસ્ક જનરેટ કરી રહ્યું છે",
+        "normalMap": "સપાટીઓનું વિશ્લેષણ",
+        "skyMask": "સ્કાય માસ્ક જનરેટ કરી રહ્યું છે",
+        "subjectMask": "વિષય માસ્ક જનરેટ કરી રહ્યું છે",
+        "textMask": "ટેક્સ્ટ માસ્ક જનરેટ કરી રહ્યું છે"
+      },
+      "more": "+{{moreCount}} વધુ",
+      "pause": "AI પ્રક્રિયાને થોભાવો",
+      "paused": "થોભાવ્યું · {{remaining}} બાકી",
+      "pausedItem": "થોભાવ્યું",
+      "pausing": "વર્તમાન પગલા પછી થોભાવી રહ્યું છે...",
+      "process": "છબીઓ પર પ્રક્રિયા કરો",
+      "progress": "{{current}}/{{total}}",
+      "queue": "કતાર",
+      "queuedItem": "કતારબદ્ધ",
+      "resume": "AI પ્રોસેસિંગ ફરી શરૂ કરો",
+      "retry": "ફરી પ્રયાસ કરો",
+      "taskWithMask": "{{task}} “{{mask}}”",
+      "thumbnailPaused": "AI પ્રોસેસિંગ થોભાવ્યું",
+      "thumbnailPending": "AI પ્રક્રિયા બાકી છે",
+      "title": "AI પ્રોસેસિંગ",
+      "unprocessed_one": "{{count}} ઇમેજને AI પ્રોસેસિંગની જરૂર છે",
+      "unprocessed_other": "{{count}} છબીઓને AI પ્રોસેસિંગની જરૂર છે",
+      "waiting": "AI પ્રોસેસિંગની તૈયારી કરી રહ્યાં છીએ..."
+    },
+    "community": {
+      "actionSave": "સાચવો",
+      "actionSaved": "સાચવેલ",
+      "actionSaving": "સાચવી રહ્યું છે...",
+      "fetchingPresets": "GitHub માંથી પ્રીસેટ્સ લાવી રહ્યું છે...",
+      "footerHeading": "તમારું પ્રીસેટ ફીચર્ડ કરાવવા માંગો છો?",
+      "footerLinkText": "GitHub પર સમસ્યા બનાવો",
+      "headerDesc": "સમુદાય દ્વારા બનાવેલ પ્રીસેટ્સ શોધો.",
+      "headerTitle": "સમુદાય પ્રીસેટ્સ",
+      "presetBy": "{{creator}} દ્વારા",
+      "searchPlaceholder": "પ્રીસેટ્સ શોધો...",
+      "sortBy": "આના દ્વારા સૉર્ટ કરો:",
+      "sortMethods": {
+        "name": "નામ (A-Z)"
+      }
+    },
+    "culling": {
+      "addTagPlaceholder": "ટેગ ઉમેરો...",
+      "altCullingPreviewHighRes": "કલિંગ પૂર્વાવલોકન ઉચ્ચ રેસ",
+      "altThumbnailLoading": "થંબનેલ લોડ થઈ રહ્યું છે",
+      "aperture": "એપર્ચર",
+      "cameraSettings": "કેમેરા સેટિંગ્સ",
+      "clickThumbnailsHint": "જમણી સાઇડબારમાં થંબનેલ્સને સરખામણી દૃશ્યમાં ઉમેરવા માટે તેને ક્લિક કરો.",
+      "colorLabel": "રંગ લેબલ",
+      "dimensions": "પરિમાણ",
+      "editImage": "છબી સંપાદિત કરો",
+      "focalLength": "ફોકલ લેન્થ",
+      "iso": "ISO",
+      "metadata": "મેટાડેટા",
+      "noMetadataAvailable": "કોઈ મેટાડેટા ઉપલબ્ધ નથી",
+      "noTagsAdded": "કોઈ ટૅગ ઉમેર્યા નથી",
+      "none": "કોઈ નહીં",
+      "rateAndLabel": "દર અને લેબલ",
+      "rating": "રેટિંગ",
+      "selectImagesToCompare": "સરખામણી કરવા માટે છબીઓ પસંદ કરો",
+      "shutterSpeed": "શટર ઝડપ",
+      "syncZoomAndPan": "ઝૂમ અને પાનને સમન્વયિત કરો",
+      "tags": "ટૅગ્સ",
+      "toggleFit": "ટૉગલ 1:1 / ફિટ",
+      "vc": "VC"
+    },
+    "filterExit": {
+      "hiddenSingle": "{{name}} હવે ફિલ્ટર સાથે મેળ ખાતું નથી",
+      "hiddenMultiple_one": "{{count}} છબીઓ હવે ફિલ્ટર સાથે મેળ ખાતી નથી",
+      "hiddenMultiple_other": "{{count}} છબીઓ હવે ફિલ્ટર સાથે મેળ ખાતી નથી",
+      "undo": "પૂર્વવત્ કરો"
+    },
+    "filters": {
+      "edited": {
+        "all": "બધી છબીઓ",
+        "editedOnly": "ફક્ત સંપાદિત",
+        "uneditedOnly": "ફક્ત અસંપાદિત"
+      },
+      "flag": {
+        "all": "બધી છબીઓ",
+        "excludeRejected": "છુપાવો નામંજૂર",
+        "picked": "પસંદ કરેલ",
+        "rejected": "નામંજૂર"
+      },
+      "noMatch": "તમારા ફિલ્ટર સાથે મેળ ખાતી હોય તેવી કોઈ છબીઓ મળી નથી.",
+      "rating": {
+        "all": "બધા બતાવો",
+        "andDownSuffix": "અને નીચે",
+        "andUpSuffix": "અને ઉપર",
+        "fiveOnly": "માત્ર 5",
+        "fourAndUp": "4 અને ઉપર",
+        "oneAndUp": "1 અને વધુ",
+        "onlySuffix": "માત્ર",
+        "threeAndUp": "3 અને વધુ",
+        "twoAndUp": "2 અને વધુ",
+        "unrated": "માત્ર અનરેટેડ"
+      },
+      "raw": {
+        "all": "તમામ પ્રકારો",
+        "nonRawOnly": "માત્ર બિન-RAW",
+        "rawOnly": "ફક્ત RAW"
+      }
+    },
+    "folders": {
+      "addFolder": "ફોલ્ડર ઉમેરો",
+      "albumsEmpty": "આલ્બમ બનાવવા માટે રાઇટ-ક્લિક કરો.",
+      "collapseSection": "સંકુચિત કરો {{section}}",
+      "expandSection": "વિસ્તૃત કરો {{section}}",
+      "loading": "ફોલ્ડર્સ લોડ કરી રહ્યું છે...",
+      "noFoldersFound": "કોઈ ફોલ્ડર્સ મળ્યાં નથી.",
+      "openFolderInstruction": "ફોલ્ડર તેની રચના જોવા માટે ખોલો.",
+      "searchPlaceholder": "ફોલ્ડર્સ શોધો...",
+      "sections": {
+        "albums": "આલ્બમ્સ",
+        "folders": "ફોલ્ડર્સ",
+        "pinned": "પિન કરેલ"
+      },
+      "sort": {
+        "created": "બનાવવાની તારીખ",
+        "imageCount": "છબીની સંખ્યા",
+        "modified": "તારીખ સુધારેલ",
+        "name": "મૂળાક્ષરો પ્રમાણે"
+      },
+      "sourcesTitle": "સ્ત્રોતો",
+      "tooltips": {
+        "clearSearch": "શોધ સાફ કરો",
+        "collapse": "સંકુચિત કરો",
+        "expand": "વિસ્તૃત કરો",
+        "moreOptions": "વિકલ્પો",
+        "navBack": "પાછા જાઓ",
+        "navForward": "આગળ વધો",
+        "sortFolders": "ફોલ્ડર્સ સૉર્ટ કરો"
+      }
+    },
+    "grid": {
+      "columns": {
+        "aperture": "એપર્ચર",
+        "focal": "ફોકલ",
+        "iso": "ISO",
+        "label": "લેબલ",
+        "modified": "સંશોધિત",
+        "name": "નામ",
+        "rating": "રેટિંગ",
+        "shutter": "શટર"
+      }
+    },
+    "header": {
+      "cancel": "રદ કરો",
+      "deselectAll": "બધાને નાપસંદ કરો",
+      "search": {
+        "addFilterOrSearch": "ફિલ્ટર ઉમેરો અથવા શોધો...",
+        "indexingImages": "ઇન્ડેક્સીંગ ઈમેજીસ...",
+        "indexingProgress": "અનુક્રમણિકા... ({{current}}/{{total}})",
+        "matchAll": "બધા ટૅગ સાથે મેળ કરો",
+        "matchAny": "કોઈપણ ટૅગ સાથે મેળ કરો",
+        "searchOrQuery": "શોધો અથવા ક્વેરી ઉમેરો",
+        "tooltipAdvancedQueries": "અદ્યતન ક્વેરીઝ: iso:>800, f:<=2.8, s:1/200, mm:50, camera:sony",
+        "tooltipClearSearch": "શોધ સાફ કરો",
+        "tooltipSearchFilter": "શોધો અથવા ફિલ્ટર કરો"
+      },
+      "selectAll": "બધા પસંદ કરો",
+      "selectItems": "વસ્તુઓ પસંદ કરો",
+      "title": "લાઇબ્રેરી",
+      "viewOptions": {
+        "currentFolder": "વર્તમાન ફોલ્ડર",
+        "displayMode": "ડિસ્પ્લે મોડ",
+        "exifDisabledTooltip": "આ વિકલ્પનો ઉપયોગ કરવા માટે સેટિંગ્સમાં EXIF રીડિંગને સક્ષમ કરો.",
+        "filterByColorLabel": "કલર લેબલ દ્વારા ફિલ્ટર કરો",
+        "filterByEdited": "સ્થિતિ સંપાદિત કરીને ફિલ્ટર કરો",
+        "filterByFileType": "ફાઇલ પ્રકાર દ્વારા ફિલ્ટર કરો",
+        "filterByFlag": "ફ્લેગ પ્રમાણે ફિલ્ટર કરો",
+        "filterByRating": "રેટિંગ દ્વારા ફિલ્ટર કરો",
+        "ratingOperator": {
+          "eq": "બરાબર આ રેટિંગ",
+          "gte": "આ રેટિંગ અથવા તેનાથી વધુ",
+          "lte": "આ રેટિંગ અથવા ઓછું"
+        },
+        "groupEditedFiles": "જૂથોમાં સંપાદિત ફાઇલોનો સમાવેશ કરો",
+        "groupIgnoreMetadata": "મેળ ન ખાતી EXIF તારીખોને અવગણો",
+        "groupOff": "બંધ",
+        "groupPreferJpeg": "JPEG પસંદ કરો",
+        "groupPreferRaw": "RAW ને પ્રાધાન્ય આપો",
+        "groupRawJpeg": "ગ્રુપ RAW + JPEG",
+        "metadataAlways": "હંમેશા",
+        "metadataHover": "હોવર પર",
+        "metadataOff": "બંધ",
+        "noLabel": "કોઈ લેબલ નથી",
+        "recursive": "પુનરાવર્તિત",
+        "showMetadata": "મેટાડેટા બતાવો",
+        "sortAscending": "ચડતા સૉર્ટ કરો",
+        "sortBy": "દ્વારા સૉર્ટ કરો",
+        "sortDescending": "ઉતરતા ક્રમમાં સૉર્ટ કરો",
+        "thumbnailFit": "થંબનેલ ફિટ",
+        "thumbnailSize": "થંબનેલનું કદ",
+        "title": "વિકલ્પો જુઓ"
+      }
+    },
+    "items": {
+      "cloudPlaceholder": "iCloud માં સંગ્રહિત — ડાઉનલોડ કરેલ નથી",
+      "immichPlaceholder": "Immich માં સંગ્રહિત — ડાઉનલોડ કરેલ નથી",
+      "collapseFolder": "ફોલ્ડર સંકુચિત કરો",
+      "currentFolder": "વર્તમાન ફોલ્ડર",
+      "expandFolder": "ફોલ્ડર વિસ્તૃત કરો",
+      "imagesCount_one": "1 છબી",
+      "imagesCount_other": "{{count}} છબીઓ",
+      "rejected": "નામંજૂર",
+      "tooltipAperture": "એપર્ચર",
+      "tooltipFocalLength": "ફોકલ લેન્થ",
+      "tooltipIso": "ISO",
+      "tooltipShutterSpeed": "શટર ઝડપ",
+      "tooltipVirtualCopy": "વર્ચ્યુઅલ કૉપિ"
+    },
+    "jobs": {
+      "active": "ચાલી રહ્યું છે",
+      "cancel": "નિકાસ રદ કરો",
+      "cancelling": "રદ કરી રહ્યું છે...",
+      "clear": "સાફ કરો",
+      "copyError": "કૉપિ કરવા માટે ક્લિક કરો",
+      "empty": "કોઈ સક્રિય નોકરીઓ નથી",
+      "emptyHint": "નિકાસ, આયાત, ફાઇલ ટ્રાન્સફર અને AI વર્ક અહીં દેખાય છે.",
+      "errorCopied": "ક્લિપબોર્ડ પર કૉપિ કરવામાં ભૂલ",
+      "images_one": "{{count}} છબી",
+      "images_other": "{{count}} છબીઓ",
+      "kinds": {
+        "aiTagging": "AI ટેગિંગ",
+        "copy": "ફાઇલોની નકલ કરો",
+        "export": "નિકાસ કરો",
+        "import": "આયાત કરો",
+        "modelDownload": "AI મોડલ ડાઉનલોડ",
+        "move": "ફાઇલો ખસેડો"
+      },
+      "openInLibrary": "લાઇબ્રેરીમાં ખોલો",
+      "recent": "તાજેતરનું",
+      "title": "જોબ્સ"
+    },
+    "reject": {
+      "deleteConfirm": "કાઢી નાખો નામંજૂર",
+      "deleteMessage_one": "શું તમે ખરેખર {{count}} નામંજૂર કરેલી છબી કાઢી નાખવા માંગો છો? તેને કચરાપેટીમાં ખસેડવામાં આવશે.",
+      "deleteMessage_other": "શું તમે ખરેખર {{count}} નામંજૂર કરેલી છબીઓ કાઢી નાખવા માંગો છો? તેમને કચરાપેટીમાં ખસેડવામાં આવશે.",
+      "deleteTitle": "નકારવામાં આવેલી છબીઓ કાઢી નાખો",
+      "noneToDelete": "કાઢી નાખવા માટે કોઈ અસ્વીકારિત છબીઓ નથી.",
+      "virtualCopiesWarning_one": "{{count}} વર્ચ્યુઅલ કૉપિ જે નકારવામાં આવી નથી તે પણ કાઢી નાખવામાં આવશે કારણ કે તેની મૂળ નકારી કાઢવામાં આવી છે.",
+      "virtualCopiesWarning_other": "{{count}} વર્ચ્યુઅલ નકલો કે જે નકારવામાં આવી નથી તે પણ કાઢી નાખવામાં આવશે કારણ કે તેમની મૂળ નકલો નકારવામાં આવી છે."
+    },
+    "search": {
+      "noResults": "કોઈ પરિણામો મળ્યાં નથી",
+      "noResultsAiHint": "વધુ વ્યાપક શોધ માટે, સેટિંગ્સમાં સ્વચાલિત ટેગિંગને સક્ષમ કરો.",
+      "noResultsDesc": "ફાઇલનામ અથવા ટૅગ્સ પર આધારિત છબી શોધી શકાઈ નથી."
+    },
+    "sort": {
+      "aperture": "એપર્ચર",
+      "dateModified": "તારીખ સુધારેલ",
+      "dateTaken": "લેવાયેલી તારીખ",
+      "editedStatus": "સંપાદિત સ્થિતિ",
+      "fileName": "ફાઇલનું નામ",
+      "focalLength": "ફોકલ લેન્થ",
+      "iso": "ISO",
+      "rating": "રેટિંગ",
+      "shutterSpeed": "શટર ઝડપ"
+    },
+    "splash": {
+      "addFolder": "ફોલ્ડર ઉમેરો",
+      "brand": "AfterEvents",
+      "continueSession": "સત્ર ચાલુ રાખો",
+      "contribute": "GitHub પર યોગદાન આપો",
+      "descriptionAndroid": "એક ખૂબ જ ઝડપી, GPU-એક્સિલરેટેડ RAW ઇમેજ એડિટર. શરૂ કરવા માટે લાઇબ્રેરી ખોલો.",
+      "descriptionDesktop": "એક ખૂબ જ ઝડપી, GPU-એક્સિલરેટેડ RAW ઇમેજ એડિટર. શરૂ કરવા માટે ફોલ્ડર ખોલો.",
+      "donate": "Ko-Fi પર દાન કરો",
+      "downloadVersion": "સંસ્કરણ {{version}} ડાઉનલોડ કરવા માટે ક્લિક કરો",
+      "goToSettings": "સેટિંગ્સ પર જાઓ",
+      "imagesBy": "દ્વારા છબીઓ",
+      "latestVersion": "તમે નવીનતમ સંસ્કરણ પર છો",
+      "newVersionAvailable": "નવું સંસ્કરણ ઉપલબ્ધ છે!",
+      "openFolder": "ફોલ્ડર ખોલો",
+      "openLibrary": "લાઇબ્રેરી ખોલો",
+      "or": "અથવા",
+      "version": "સંસ્કરણ {{version}}",
+      "welcomeBack": "ફરી સ્વાગત છે!",
+      "welcomeBackDesc": "તમે જ્યાંથી છોડ્યું હતું ત્યાંથી ચાલુ રાખો અથવા નવું સત્ર શરૂ કરો."
+    },
+    "status": {
+      "downloading": "ડાઉનલોડ કરી રહ્યું છે {{status}}...",
+      "importing": "છબીઓ આયાત કરી રહ્યું છે... ({{current}}/{{total}})",
+      "indexing": "છબીઓને અનુક્રમિત કરી રહી છે... ({{current}}/{{total}})",
+      "moment": "આમાં થોડો સમય લાગી શકે છે.",
+      "processing": "છબીઓ પર પ્રક્રિયા કરી રહ્યું છે..."
+    },
+    "thumbnailFit": {
+      "fillSquare": "ચોરસ ભરો",
+      "justified": "મેસનરી",
+      "originalRatio": "મૂળ ગુણોત્તર"
+    },
+    "thumbnailSize": {
+      "large": "મોટું",
+      "list": "યાદી",
+      "medium": "મધ્યમ",
+      "small": "નાનું"
+    },
+    "tooltips": {
+      "communityPresets": "સમુદાય પ્રીસેટ્સ",
+      "goHome": "હોમ પર જાઓ",
+      "importImages": "છબીઓ આયાત કરો",
+      "select": "પસંદ કરો"
+    },
+    "viewMode": {
+      "culling": "કલિંગ વ્યુ",
+      "grid": "ગ્રીડ વ્યુ",
+      "list": "સૂચિ દૃશ્ય"
+    }
+  },
+  "masks": {
+    "types": {
+      "all": "સંપૂર્ણ છબી",
+      "brush": "બ્રશ",
+      "clone": "ક્લોન",
+      "color": "રંગ",
+      "depth": "ઊંડાઈ",
+      "face": "ચહેરો",
+      "flow": "પ્રવાહ",
+      "foreground": "ફોરગ્રાઉન્ડ",
+      "heal": "હીલ",
+      "linear": "લીનિયર",
+      "liquify": "લિક્વિફાઇ",
+      "luminance": "લ્યુમિનેન્સ",
+      "matchBrush": "મેચ બ્રશ",
+      "others": "અન્ય",
+      "quickErase": "ઝડપી ભૂંસી નાખો",
+      "quickEraser": "ઝડપી ઇરેઝર",
+      "radial": "રેડિયલ",
+      "retouch": "રીટચ",
+      "sky": "આકાશ",
+      "subject": "વિષય",
+      "text": "ટેક્સ્ટ"
+    }
+  },
+  "menus": {
+    "tagging": {
+      "addTagTooltip": "ટેગ ઉમેરો",
+      "noTags": "કોઈ ટૅગ ઉમેર્યા નથી",
+      "placeholder": "ટેગ ઉમેરો...",
+      "removeTooltip": "ટેગ \"{{tag}}\" દૂર કરો",
+      "shortcutsHeading": "શોર્ટકટ્સ"
+    }
+  },
+  "modals": {
+    "collage": {
+      "aspectRatio": "આસ્પેક્ટ રેશિયો",
+      "background": "પૃષ્ઠભૂમિ",
+      "borderRadius": "બોર્ડર ત્રિજ્યા",
+      "cancel": "રદ કરો",
+      "close": "બંધ કરો",
+      "done": "થઈ ગયું",
+      "errorTitle": "એક ભૂલ આવી",
+      "exportSize": "નિકાસ કદ (px)",
+      "keepOriginalRatio": "મૂળ આસ્પેક્ટ રેશિયો રાખો",
+      "layout": "લેઆઉટ",
+      "original": "મૂળ",
+      "saveButton": "કોલાજ સાચવો",
+      "saved": "કોલાજ સાચવ્યો!",
+      "saving": "સાચવી રહ્યું છે...",
+      "shuffleTooltip": "છબીઓને શફલ કરો",
+      "spacing": "અંતર"
+    },
+    "configurePreset": {
+      "cancel": "રદ કરો",
+      "includeCropTransform": "ક્રોપ અને ટ્રાન્સફોર્મનો સમાવેશ કરો",
+      "includeMasks": "માસ્ક શામેલ કરો",
+      "placeholder": "પ્રીસેટ નામ દાખલ કરો...",
+      "save": "સાચવો",
+      "titleConfigure": "પ્રીસેટ ગોઠવો",
+      "titleSave": "નવું પ્રીસેટ સાચવો",
+      "typeStyleDesc": "સંપૂર્ણ દેખાવ લાગુ કરે છે. પ્રીસેટ સાથે બરાબર મેચ કરવા માટે આ તમારી બધી વર્તમાન સેટિંગ્સને ઓવરરાઇડ કરશે.",
+      "typeStyleLabel": "શૈલી",
+      "typeToolDesc": "તમારી અન્ય સેટિંગ્સને સ્પર્શ કર્યા વિના ફક્ત ચોક્કસ ફેરફારો જ લાગુ થાય છે.",
+      "typeToolLabel": "સાધન"
+    },
+    "confirm": {
+      "cancel": "રદ કરો",
+      "confirm": "પુષ્ટિ કરો"
+    },
+    "copyPaste": {
+      "autoSyncDesc": "બધી પસંદ કરેલી છબીઓ પર આપમેળે ગોઠવણો લાગુ કરો.",
+      "autoSyncLabel": "સ્વતઃ-સમન્વયન સક્ષમ કરો",
+      "autoSyncTitle": "સ્વતઃ-સમન્વયન ગોઠવણો",
+      "cancel": "રદ કરો",
+      "descMerge": "અન્ય સેટિંગ્સને અસ્પૃશ્ય રાખીને, તમારા કૉપિ કરેલા ફેરફારો ઉમેરે છે.",
+      "descReplace": "બધી પસંદ કરેલી સેટિંગ્સ પર ફરીથી લખે છે, બાકીનાને તેમના ડિફોલ્ટ પર ફરીથી સેટ કરે છે.",
+      "groups": {
+        "aiDenoise": "AI ડીનોઈઝ",
+        "aiUpscale": "RapidRes",
+        "blackWhite": "કાળો અને સફેદ",
+        "chromaticAberration": "ક્રોમેટિક એબરેશન",
+        "clarityDehaze": "સ્પષ્ટતા અને દેહઝ",
+        "colorCalibration": "રંગ માપાંકન",
+        "colorGrading": "કલર ગ્રેડિંગ",
+        "colorMixer": "કલર મિક્સર",
+        "cropAspectRatio": "ક્રોપ અને આસ્પેક્ટ રેશિયો",
+        "curves": "વણાંકો",
+        "fog": "ધુમ્મસ",
+        "grain": "ગ્રેન",
+        "guidedPerspective": "માર્ગદર્શિત પરિપ્રેક્ષ્ય",
+        "halationGlow": "હેલેશન અને ગ્લો",
+        "hueShift": "ગ્લોબલ હ્યુ શિફ્ટ",
+        "lensBlur": "લેન્સ બ્લર",
+        "motionBlur": "મોશન બ્લર",
+        "lensCorrection": "લેન્સ કરેક્શન",
+        "lut": "LUT",
+        "masks": "માસ્ક",
+        "negativeConversion": "નેગેટિવ રૂપાંતર",
+        "noiseReduction": "અવાજ ઘટાડો",
+        "presence": "પ્રેઝન્સ",
+        "relight": "રિલાઇટ",
+        "sharpness": "તીક્ષ્ણતા",
+        "transformRotation": "ટ્રાન્સફોર્મ અને રોટેશન",
+        "vignette": "વિગ્નેટ",
+        "whiteBalance": "વ્હાઇટ બેલેન્સ"
+      },
+      "includedAdjustments": "સમાવિષ્ટ ગોઠવણો",
+      "modeMerge": "મર્જ",
+      "modeReplace": "બદલો",
+      "pasteMode": "પેસ્ટ મોડ",
+      "save": "સાચવો",
+      "selectAll": "બધા પસંદ કરો",
+      "selectNone": "કોઈ નહીં પસંદ કરો",
+      "title": "કૉપિ અને પેસ્ટ સેટિંગ્સ"
+    },
+    "createAlbum": {
+      "placeholder": "આલ્બમનું નામ દાખલ કરો..."
+    },
+    "createFolder": {
+      "cancel": "રદ કરો",
+      "create": "બનાવો",
+      "placeholder": "ફોલ્ડરનું નામ દાખલ કરો...",
+      "title": "નવું ફોલ્ડર બનાવો"
+    },
+    "createGroup": {
+      "placeholder": "જૂથનું નામ દાખલ કરો..."
+    },
+    "culling": {
+      "actionDelete": "ટ્રેશમાં ખસેડો",
+      "actionRateZero": "રેટિંગને 1 સ્ટાર પર સેટ કરો",
+      "actionReject": "નકારેલ તરીકે ચિહ્નિત કરો",
+      "applyButton_one": "1 છબી પર લાગુ કરો",
+      "applyButton_other": "{{count}} છબીઓ પર લાગુ કરો",
+      "bestImage": "શ્રેષ્ઠ છબી",
+      "blurThreshold": "બ્લર થ્રેશોલ્ડ",
+      "blurThresholdDesc": "આ મૂલ્યની નીચે શાર્પનેસ સ્કોર ધરાવતી છબીઓ ફ્લેગ કરવામાં આવી છે. ઉચ્ચ વધુ કડક છે.",
+      "blurryImagesTab": "ઝાંખી છબીઓ",
+      "cancel": "રદ કરો",
+      "close": "બંધ કરો",
+      "cullingFailed": "કલિંગ નિષ્ફળ",
+      "cullingSuggestions": "કલિંગ સૂચનો",
+      "done": "થઈ ગયું",
+      "duplicatesHeader": "ડુપ્લિકેટ્સ ({{count}})",
+      "duplicatesHeader_one": "ડુપ્લિકેટ્સ ({{count}})",
+      "duplicatesHeader_other": "ડુપ્લિકેટ્સ ({{count}})",
+      "filterBlurry": "અસ્પષ્ટ છબીઓ ફિલ્ટર કરો",
+      "groupHeader": "જૂથ {{index}}",
+      "groupSimilar": "જૂથ સમાન છબીઓ",
+      "noIssuesDesc": "બધી છબીઓ અનન્ય અને શાર્પ લાગે છે.",
+      "noIssuesFound": "કોઈ સમસ્યા મળી નથી!",
+      "score": "સ્કોર: {{score}}",
+      "sharpness": "તીક્ષ્ણતા: {{sharpness}}",
+      "similarGroupsTab": "સમાન જૂથો",
+      "similarityThreshold": "સમાનતા થ્રેશોલ્ડ",
+      "similarityThresholdDesc": "લોઅર વધુ કડક છે (ચોક્કસ ડુપ્લિકેટ્સ). વધુ ઢીલું છે (નજીક ડુપ્લિકેટ). 24-32ના મૂલ્યની ભલામણ કરવામાં આવે છે.",
+      "startCulling": "કલિંગ શરૂ કરો",
+      "starting": "શરૂ થઈ રહ્યું છે...",
+      "title": "છબીઓ કલ કરો"
+    },
+    "focusStack": {
+      "cancel": "રદ કરો",
+      "close": "બંધ કરો",
+      "depthMap": "ઊંડાઈનો નકશો",
+      "description": "એક સંપૂર્ણ શાર્પ ઇમેજમાં વિવિધ ફોકસ અંતર સાથે બહુવિધ છબીઓને જોડો.",
+      "descriptionWithCount_one": "એક સંપૂર્ણ શાર્પ ઇમેજમાં વિવિધ ફોકસ અંતર સાથે {{count}} ઇમેજને જોડો.",
+      "descriptionWithCount_other": "એક સંપૂર્ણ શાર્પ ઇમેજમાં વિવિધ ફોકસ ડિસ્ટન્સ સાથે {{count}} ઇમેજને જોડો.",
+      "failed": "ફોકસ સ્ટેક નિષ્ફળ",
+      "initializing": "આરંભ કરી રહ્યું છે...",
+      "openInEditor": "એડિટરમાં ખોલો",
+      "result": "પરિણામ",
+      "save": "સાચવો",
+      "savedSuccess": "ફોકસ સ્ટેક સફળતાપૂર્વક સાચવવામાં આવ્યો!",
+      "stacking": "સ્ટેકીંગ ફોકસ",
+      "start": "શરૂ કરો",
+      "title": "ફોકસ સ્ટેકીંગ"
+    },
+    "hdr": {
+      "cancel": "રદ કરો",
+      "close": "બંધ કરો",
+      "description": "તમારા બ્રેકેટેડ એક્સપોઝરને સિંગલ હાઈ ડાયનેમિક રેન્જ ઈમેજમાં જોડો.",
+      "descriptionWithCount": "એક ઉચ્ચ ડાયનેમિક રેન્જ ઈમેજમાં {{count}} બ્રેકેટેડ એક્સપોઝરને જોડો.",
+      "descriptionWithCount_one": "એક હાઇ ડાયનેમિક રેન્જ ઇમેજમાં {{count}} બ્રેકેટેડ એક્સપોઝરને જોડો.",
+      "descriptionWithCount_other": "એક ઉચ્ચ ડાયનેમિક રેન્જ ઈમેજમાં {{count}} બ્રેકેટેડ એક્સપોઝરને જોડો.",
+      "failed": "HDR મર્જ નિષ્ફળ",
+      "initializing": "આરંભ કરી રહ્યું છે...",
+      "merging": "HDR મર્જ કરવું",
+      "openInEditor": "એડિટરમાં ખોલો",
+      "retry": "ફરી પ્રયાસ કરો",
+      "save": "સાચવો",
+      "savedSuccess": "HDR સફળતાપૂર્વક સાચવ્યું!",
+      "speedNotice": "તમારા એક્સપોઝરની સંખ્યા અને કદના આધારે આમાં થોડો સમય લાગી શકે છે.",
+      "start": "શરૂ કરો",
+      "title": "HDR માં મર્જ કરો"
+    },
+    "importSettings": {
+      "cancel": "રદ કરો",
+      "dateFormat": "તારીખ ફોર્મેટ",
+      "dateFormatPlaceholder": "દા.ત., YYYY/MM-DD",
+      "deleteAfterImport": "સફળ આયાત પછી મૂળ કાઢી નાખો",
+      "deleteWarning": "ફાઇલોને સિસ્ટમ ટ્રેશમાં ખસેડવામાં આવશે.",
+      "fileNaming": "ફાઇલ નામકરણ",
+      "folderOrganization": "ફોલ્ડર સંસ્થા",
+      "notUniqueWarning": "{original_filename}, {original_filename_number} અથવા {sequence} વિના, ફાઇલોને સમાન નામ મળી શકે છે. તે ફાઇલો આયાત કરવામાં આવતી નથી.",
+      "organizeByDate": "તારીખ પ્રમાણે સબફોલ્ડરમાં ગોઠવો",
+      "sourceFiles": "સ્ત્રોત ફાઇલો",
+      "startImport": "આયાત શરૂ કરો",
+      "title": "આયાત સેટિંગ્સ"
+    },
+    "lensCorrection": {
+      "amount": "માત્રા",
+      "apply": "લાગુ કરો",
+      "autoDetectLens": "લેન્સ સ્વતઃ શોધો",
+      "autoDetectStatus": "સ્વતઃ તપાસ સ્થિતિ",
+      "cancel": "રદ કરો",
+      "chooseSavedLens": "સાચવેલ લેન્સ પસંદ કરો",
+      "chromaticAberration": "ક્રોમેટિક એબરેશન",
+      "compareTooltip": "સરખામણી કરવા માટે પકડી રાખો",
+      "corrections": "સુધારા",
+      "databaseNotice": "લેન્સ ડેટાબેઝ <0>Lensfun Project</0> (<1>CC BY-SA 3.0</1>) દ્વારા પ્રદાન કરવામાં આવે છે.",
+      "detecting": "શોધી રહ્યું છે...",
+      "detectingExif": "EXIF ને શોધી રહ્યું છે...",
+      "distortion": "વિકૃતિ",
+      "lensFound": "લેન્સ મળ્યો",
+      "lensProfileNotFound": "લેન્સ પ્રોફાઇલ મળી નથી",
+      "manageLensesPlaceholder": "તમારા લેન્સને સેટિંગ્સમાં મેનેજ કરો",
+      "manualSelection": "મેન્યુઅલ પસંદગી",
+      "maskWarning": "લેન્સ સુધારણા આધાર ભૂમિતિ અપડેટ કરે છે. હાલના માસ્ક બદલાઈ શકે છે, અને AI માસ્ક ફરીથી જનરેટ કરવા જોઈએ.",
+      "modeAuto": "ઓટો",
+      "modeManual": "મેન્યુઅલ",
+      "notFound": "મળ્યો નથી",
+      "original": "મૂળ",
+      "resetTooltip": "લેન્સ કરેક્શન રીસેટ કરો",
+      "resetZoomTooltip": "ઝૂમ રીસેટ કરો",
+      "selectLensModel": "લેન્સ મોડલ પસંદ કરો",
+      "selectManufacturer": "ઉત્પાદક પસંદ કરો",
+      "title": "લેન્સ કરેક્શન",
+      "vignetting": "વિગ્નેટીંગ",
+      "zoomInTooltip": "ઝૂમ ઇન કરો",
+      "zoomOutTooltip": "ઝૂમ આઉટ"
+    },
+    "panorama": {
+      "cancel": "રદ કરો",
+      "close": "બંધ કરો",
+      "descCount": "{{count}} ઓવરલેપ થતી છબીઓને સીમલેસ પેનોરમામાં જોડો.",
+      "descCount_one": "{{count}} ઓવરલેપ થતી છબીને સીમલેસ પેનોરમામાં જોડો.",
+      "descCount_other": "{{count}} ઓવરલેપ થતી છબીઓને સીમલેસ પેનોરમામાં જોડો.",
+      "descGeneric": "તમારી ઓવરલેપ થતી છબીઓને સીમલેસ પેનોરમામાં જોડો.",
+      "failed": "પેનોરમા નિષ્ફળ",
+      "initializing": "આરંભ કરી રહ્યું છે...",
+      "openInEditor": "એડિટરમાં ખોલો",
+      "retry": "ફરી પ્રયાસ કરો",
+      "save": "સાચવો",
+      "savedSuccess": "પેનોરમા સફળતાપૂર્વક સાચવવામાં આવ્યું!",
+      "speedNotice": "છબીઓની સંખ્યા અને કદના આધારે આમાં થોડો સમય લાગી શકે છે.",
+      "start": "શરૂ કરો",
+      "stitchingProgress": "સ્ટીચિંગ પેનોરમા",
+      "title": "સ્ટીચ પેનોરમા"
+    },
+    "renameAlbum": {
+      "placeholder": "નવું આલ્બમ નામ દાખલ કરો..."
+    },
+    "renameFile": {
+      "cancel": "રદ કરો",
+      "fileNamingTemplate": "ફાઇલ નામકરણ નમૂનો",
+      "newName": "નવું નામ",
+      "notUniqueWarning": "{original_filename}, {original_filename_number} અથવા {sequence} વિના, ફાઇલોને સમાન નામ મળી શકે છે. પછી નામ બદલાતું નથી.",
+      "save": "સાચવો",
+      "titleMultiple": "{{count}} છબીઓનું નામ બદલો",
+      "titleMultiple_one": "{{count}} છબીનું નામ બદલો",
+      "titleMultiple_other": "{{count}} છબીઓનું નામ બદલો",
+      "titleSingle": "છબીનું નામ બદલો"
+    },
+    "renameFolder": {
+      "cancel": "રદ કરો",
+      "placeholder": "નવું ફોલ્ડર નામ દાખલ કરો...",
+      "save": "સાચવો",
+      "title": "ફોલ્ડરનું નામ બદલો"
+    },
+    "renameGroup": {
+      "placeholder": "નવું જૂથ નામ દાખલ કરો..."
+    },
+    "transform": {
+      "amount": "માત્રા",
+      "apply": "લાગુ કરો",
+      "aspect": "આસ્પેક્ટ",
+      "cancel": "રદ કરો",
+      "compareTooltip": "સરખામણી કરવા માટે પકડી રાખો",
+      "distortion": "વિકૃતિ",
+      "geometry": "ભૂમિતિ",
+      "guided": "માર્ગદર્શિત પરિપ્રેક્ષ્ય",
+      "horizontal": "આડું",
+      "manual": "મેન્યુઅલ ટ્રાન્સફોર્મ",
+      "maskWarning": "ટ્રાન્સફોર્મિંગ અપડેટ્સ બેઝ ભૂમિતિ. હાલના માસ્ક બદલાઈ શકે છે, અને AI માસ્ક ફરીથી જનરેટ કરવા જોઈએ.",
+      "offset": "ઑફસેટ",
+      "original": "મૂળ",
+      "perspective": "પરિપ્રેક્ષ્ય",
+      "resetTooltip": "ટ્રાન્સફોર્મ રીસેટ કરો",
+      "resetZoomTooltip": "ઝૂમ રીસેટ કરો",
+      "rotate": "ફેરવો",
+      "scale": "સ્કેલ",
+      "title": "ટ્રાન્સફોર્મ",
+      "toggleGridTooltip": "ટોગલ ગ્રીડ",
+      "toggleHelperLinesTooltip": "હેલ્પર લાઇન્સને ટૉગલ કરો",
+      "vertical": "વર્ટિકલ",
+      "xAxis": "એક્સ એક્સિસ",
+      "yAxis": "Y અક્ષ",
+      "zoomInTooltip": "ઝૂમ ઇન કરો",
+      "zoomOutTooltip": "ઝૂમ આઉટ"
+    }
+  },
+  "settings": {
+    "categories": {
+      "general": "સામાન્ય",
+      "processing": "પ્રોસેસિંગ",
+      "shortcuts": "નિયંત્રણો"
+    },
+    "controls": {
+      "keyboardTitle": "કીબોર્ડ નિયંત્રણો",
+      "modes": {
+        "mouse": "માઉસ",
+        "trackpad": "ટચપેડ"
+      },
+      "notAssigned": "સોંપેલ નથી",
+      "optimization": "ઇનપુટ ઉપકરણ ઓપ્ટિમાઇઝેશન",
+      "optimizationDesc": "તમે કેનવાસને પેન કરવા અને ઝૂમ કરવા માટે ઉપયોગ કરો છો તે પ્રાથમિક ઇનપુટ ઉપકરણ પસંદ કરો.",
+      "pressKey": "કી દબાવો... (સાફ કરવા માટે Esc)",
+      "resetDefaults": "બધાને ડિફોલ્ટ પર રીસેટ કરો",
+      "speed": "ઝડપ",
+      "speedEdit": {
+        "adjustments": "ગોઠવણો",
+        "gestures": {
+          "doubleClick": "રીસેટ કરવા માટે ડબલ-ક્લિક કરો",
+          "drag": "એડજસ્ટ કરવા માટે કેનવાસ પર ખેંચો",
+          "fine": "દંડ માટે શિફ્ટ"
+        },
+        "keys": {
+          "hold": "ટેપ કરો/હોલ્ડ કરો",
+          "previousImage": "પાછલા. છબી",
+          "nextImage": "આગલી છબી",
+          "reset": "રીસેટ કરો",
+          "previousAdjustment": "પાછલા. સ્લાઇડર",
+          "nextAdjustment": "આગલું સ્લાઇડર",
+          "copy": "કૉપિ",
+          "paste": "પેસ્ટ કરો",
+          "stepDown": "−1 પગલું",
+          "stepUp": "+1 પગલું"
+        },
+        "title": "ઝડપ સંપાદન"
+      },
+      "title": "માઉસ નિયંત્રણો",
+      "zoom": "ઝૂમ સ્પીડ ગુણક",
+      "zoomClick": "ફોટાને 100% સુધી ઝૂમ કરો",
+      "zoomClickDesc": "માઉસ ક્લિક પર 100% એડિટરમાં ફોટો ઝૂમ કરો",
+      "zoomClickInfo": "તીક્ષ્ણતા અને અવાજનું મૂલ્યાંકન કરવા માટે તરત જ 100% (1:1 પિક્સેલ્સ) સુધી ઝૂમ કરવા માટે ફોટો પર ક્લિક કરો. જ્યારે અક્ષમ હોય, ત્યારે ક્લિક કરવાથી ધીમે ધીમે ઝૂમ વધે છે.",
+      "zoomDesc": "સ્ક્રોલ વ્હીલ અથવા પિંચ હાવભાવનો ઉપયોગ કરતી વખતે કેનવાસ કેટલી ઝડપથી ઝૂમ ઇન અને આઉટ થાય છે તે ગોઠવો."
+    },
+    "data": {
+      "aiTags": "AI ટૅગ્સ સાફ કરો",
+      "aiTagsDesc": "તમારા રૂટ ફોલ્ડર્સની બધી ઈમેજમાંથી AI-જનરેટેડ ટૅગ્સ દૂર કરે છે. તમારા પોતાના ટૅગ્સ રાખવામાં આવે છે.",
+      "allTags": "બધા ટૅગ્સ સાફ કરો",
+      "allTagsDesc": "તમારા રૂટ ફોલ્ડર્સની બધી છબીઓમાંથી AI-જનરેટેડ અને વપરાશકર્તા-ઉમેરેલા ટૅગ્સ દૂર કરે છે. કલર લેબલ રાખવામાં આવેલ છે.",
+      "clear": "સાફ કરો",
+      "delete": "કાઢી નાખો",
+      "deleteEdits": "બધા સંપાદનો કાઢી નાખો",
+      "deleteEditsDesc": "બધા રૂટ ફોલ્ડર્સમાં દરેક .rrdata સાઇડકાર (તમારા સંપાદનો) દૂર કરે છે. આ પૂર્વવત્ કરી શકાતું નથી.",
+      "libraryAndWorkspace": "લાઇબ્રેરી અને વર્કસ્પેસ",
+      "limit": "મર્યાદા",
+      "modals": {
+        "aiDenoiseMessage": "શું તમે ખરેખર AI Denoise કેશને સાફ કરવા માંગો છો?\n\nAI Denoise સક્ષમ હોય તેવી છબીઓને ફરીથી ડિનોઈઝ કરવાની જરૂર પડશે, જેમાં પ્રતિ ઈમેજમાં ઘણી મિનિટ લાગી શકે છે.",
+        "aiUpscaleMessage": "શું તમે ખરેખર RapidRes કૅશને સાફ કરવા માંગો છો?\n\n સક્ષમ RapidRes સાથેની છબીઓને ફરીથી અપસ્કેલ કરવાની જરૂર પડશે.",
+        "aiMapsMessage": "શું તમે ખરેખર ડેપ્થ અને નોર્મલ મેપ સાફ કરવા માંગો છો?\n\nલેન્સ બ્લર, ફોગ અથવા રિલાઇટ વાળી છબીઓ આગલી વાર ખોલતાં તેમના મેપ ફરીથી બનાવશે.",
+        "aiMessage": "શું તમે ખરેખર બધા સક્રિય રૂટ ફોલ્ડર્સમાંની બધી છબીઓમાંથી બધા AI-જનરેટેડ ટૅગ્સ દૂર કરવા માંગો છો?\n\nઆ વપરાશકર્તા-ઉમેરેલા ટૅગ્સને અસર કરશે નહીં. આ ક્રિયા પૂર્વવત્ કરી શકાતી નથી.",
+        "allMessage": "શું તમે ખરેખર બધા સક્રિય રૂટ ફોલ્ડર્સમાંની બધી છબીઓમાંથી બધા AI-જનરેટેડ અને વપરાશકર્તા દ્વારા ઉમેરાયેલા ટૅગ્સને દૂર કરવા માંગો છો?\n\nઆ ક્રિયા પૂર્વવત્ કરી શકાતી નથી.",
+        "cacheMessage": "શું તમે ખરેખર થંબનેલ કેશ સાફ કરવા માંગો છો?\n\nબધી થંબનેલ્સને ફરીથી જનરેટ કરવાની જરૂર પડશે, જે મોટા ફોલ્ડર્સ માટે ધીમી હોઈ શકે છે.",
+        "confirmAiTitle": "AI ટેગ કાઢી નાખવાની પુષ્ટિ કરો",
+        "confirmAllTitle": "બધા ટૅગ કાઢી નાખવાની પુષ્ટિ કરો",
+        "confirmClear": "સાફ કરો",
+        "confirmClearAi": "AI ટૅગ્સ સાફ કરો",
+        "confirmClearAll": "બધા ટૅગ્સ સાફ કરો",
+        "confirmDeleteAllEdits": "બધા સંપાદનો કાઢી નાખો",
+        "confirmResetLayout": "લેઆઉટ રીસેટ કરો",
+        "confirmResetLayoutTitle": "વર્કસ્પેસ લેઆઉટ રીસેટ કરો",
+        "confirmTitle": "કાઢી નાખવાની પુષ્ટિ કરો",
+        "immichMessage": "શું તમે ખરેખર ડાઉનલોડ કરેલ Immich મૂળને સાફ કરવા માંગો છો?\n\nતમારા સંપાદનો રાખવામાં આવ્યા છે. જ્યારે તમે તેને ખોલો છો ત્યારે ઓરિજિનલ ફરીથી ડાઉનલોડ થાય છે.",
+        "metadataMessage": "શું તમે ખરેખર મેટાડેટા કેશને સાફ કરવા માંગો છો?\n\nતમે બ્રાઉઝ કરશો ત્યારે તમારી ફાઇલોમાંથી મેટાડેટા ફરીથી વાંચવામાં આવશે.",
+        "modelsMessage": "શું તમે ખરેખર ડાઉનલોડ કરેલ AI મોડલ્સને દૂર કરવા માંગો છો?\n\nઆગલી વખતે જ્યારે AI સુવિધાનો ઉપયોગ કરવામાં આવશે ત્યારે તે ફરીથી ડાઉનલોડ કરવામાં આવશે.",
+        "resetLayoutMessage": "શું તમે ખરેખર વર્કસ્પેસ લેઆઉટ રીસેટ કરવા માંગો છો? તમામ ડોક કરેલ પેનલ, પહોળાઈ અને સ્વિચર સ્થિતિ તેમના ડિફોલ્ટ પર પુનઃસ્થાપિત કરવામાં આવશે.",
+        "sidecarMessage": "શું તમે ખરેખર બધી સાઇડકાર ફાઇલો કાઢી નાખવા માંગો છો?\n\nઆ બધા સક્રિય રૂટ ફોલ્ડર્સ અને તેમના સબફોલ્ડર્સની અંદરની બધી છબીઓ માટેના તમારા બધા સંપાદનોને કાયમ માટે દૂર કરશે."
+      },
+      "noFolders": "કોઈ ફોલ્ડર્સ પસંદ કર્યા નથી",
+      "refresh": "તાજું કરો",
+      "reset": "રીસેટ કરો",
+      "resetLayoutDesc": "પેનલ ડોક્સ, સાઇડ સ્પ્લિટર્સ, હાઇટ્સ અને પેનલ સ્વિચરને ડિફોલ્ટ લેઆઉટમાં પુનઃસ્થાપિત કરો.",
+      "resetLayoutTitle": "વર્કસ્પેસ લેઆઉટ રીસેટ કરો",
+      "show": "બતાવો",
+      "statuses": {
+        "aiDenoiseSuccess": "AI Denoise કેશ સફળતાપૂર્વક સાફ થઈ.",
+        "aiUpscaleSuccess": "RapidRes કૅશ સફળતાપૂર્વક સાફ થઈ.",
+        "aiSuccess": "{{count}} ફાઇલો અપડેટ થઈ. AI ટૅગ્સ દૂર કર્યા.",
+        "aiSuccess_one": "{{count}} ફાઇલ અપડેટ કરી. AI ટૅગ્સ દૂર કર્યા.",
+        "aiSuccess_other": "{{count}} ફાઇલો અપડેટ થઈ. AI ટૅગ્સ દૂર કર્યા.",
+        "allSuccess": "{{count}} ફાઇલો અપડેટ થઈ. બધા બિન-રંગ ટૅગ્સ દૂર કર્યા.",
+        "allSuccess_one": "{{count}} ફાઇલ અપડેટ કરી. બધા બિન-રંગ ટૅગ્સ દૂર કર્યા.",
+        "allSuccess_other": "{{count}} ફાઇલો અપડેટ થઈ. બધા બિન-રંગ ટૅગ્સ દૂર કર્યા.",
+        "cacheSuccess": "થંબનેલ કેશ સફળતાપૂર્વક સાફ થઈ.",
+        "cleared": "સફળતાપૂર્વક સાફ.",
+        "layoutResetSuccess": "વર્કસ્પેસ લેઆઉટ ડિફોલ્ટ પર રીસેટ.",
+        "sidecarSuccess": "{{count}} સાઇડકાર ફાઇલો સફળતાપૂર્વક કાઢી નાખવામાં આવી.",
+        "sidecarSuccess_one": "{{count}} સાઇડકાર ફાઇલ સફળતાપૂર્વક કાઢી નાખવામાં આવી.",
+        "sidecarSuccess_other": "{{count}} સાઇડકાર ફાઇલો સફળતાપૂર્વક કાઢી નાખવામાં આવી."
+      },
+      "storage": {
+        "aiDenoise": "AI ડીનોઈઝ",
+        "aiDenoiseDesc": "કેશ્ડ ડેનોઇઝ પરિણામો.",
+        "aiUpscale": "RapidRes",
+        "aiUpscaleDesc": "કેશ્ડ 2x RapidRes અપસ્કેલ્સ.",
+        "aiMaps": "ઊંડાઈ અને સામાન્ય નકશા",
+        "aiMapsDesc": "લેન્સ બ્લર, ફોગ અને રિલાઇટ દ્વારા ઉપયોગમાં લેવાય છે.",
+        "immich": "Immich",
+        "immichDesc": "ડાઉનલોડ કરેલ મૂળ. એકવાર મર્યાદા સુધી પહોંચી ગયા પછી તાજેતરમાં ઉપયોગમાં લેવાતા ઓછામાં ઓછા દૂર કરવામાં આવે છે; તમારા સંપાદનો રાખવામાં આવે છે.",
+        "logs": "લોગ્સ",
+        "logsDesc": "સમસ્યાનિવારણ માટે એપ્લિકેશન લોગ ફાઇલો. દરેક શરૂઆત પર સાફ.",
+        "metadata": "મેટાડેટા",
+        "metadataDesc": "ઝડપી ફોલ્ડર લોડ કરવા માટે કેશ્ડ EXIF ​​ડેટા.",
+        "models": "AI મોડલ્સ",
+        "modelsDesc": "જ્યારે AI સુવિધાનો પ્રથમ ઉપયોગ કરવામાં આવે ત્યારે માંગ પર ડાઉનલોડ થાય છે.",
+        "thumbnails": "થંબનેલ્સ",
+        "thumbnailsDesc": "તમે બ્રાઉઝ કરો ત્યારે આપમેળે પુનઃજનરેટ થાય છે."
+      },
+      "storageTitle": "સંગ્રહ",
+      "title": "ડેટા મેનેજમેન્ટ",
+      "totalUsed": "AfterEvents આ ઉપકરણ પર {{size}} નો ઉપયોગ કરી રહ્યું છે."
+    },
+    "general": {
+      "createXmp": "ખૂટતી XMP ફાઇલો બનાવો",
+      "createXmpDesc": "જો છબી માટે અસ્તિત્વમાં ન હોય તો આપમેળે નવી XMP સાઇડકાર ફાઇલ બનાવો.",
+      "createXmpMissing": "જો ખૂટે છે તો XMP બનાવો",
+      "displayEditIcon": "સંપાદન આઇકન દર્શાવો",
+      "displayEditIconDesc": "સંપાદિત કરવામાં આવેલ થંબનેલ્સ પર એક નાનું સ્લાઇડર આઇકોન બતાવો.",
+      "enableFocusMode": "ફોકસ મોડને સક્ષમ કરો",
+      "enableNeutralGreyCanvas": "તટસ્થ ગ્રે પૃષ્ઠભૂમિને સક્ષમ કરો",
+      "enableOsTitlebar": "OS ટાઇટલબારને સક્ષમ કરો",
+      "enableToolFocusMode": "ટૂલ ફોકસ મોડને સક્ષમ કરો",
+      "enableXmpSync": "XMP સમન્વયન સક્ષમ કરો",
+      "focusMode": "ફોકસ મોડ",
+      "focusModeDesc": "જ્યારે તમે નવી પેનલ ખોલો છો ત્યારે અન્ય પેનલને આપમેળે બંધ કરીને તમને ધ્યાન કેન્દ્રિત કરવામાં મદદ કરે છે.",
+      "folderImageCounts": "ફોલ્ડરની છબીની ગણતરી",
+      "folderImageCountsDesc": "ફોલ્ડર વૃક્ષ પર હોવર કરતી વખતે ફોલ્ડર્સની અંદરની છબીઓની સંખ્યા બતાવો.",
+      "font": "ફોન્ટ",
+      "fontDesc": "એપ્લિકેશન ફોન્ટ બદલો.",
+      "hideCollapsedPanels": "સંકુચિત પેનલ્સ છુપાવો",
+      "hideCollapsedPanelsDesc": "સંકુચિત બાજુની પેનલ સાંકડી પટ્ટી છોડવાને બદલે સંપૂર્ણપણે છુપાવે છે. તેમને નીચેના બારમાંથી અથવા તેમના કીબોર્ડ શૉર્ટકટ્સ વડે ફરીથી ખોલો.",
+      "nativeTitlebar": "મૂળ શીર્ષકબાર",
+      "nativeTitlebarDesc": "AfterEventsના કસ્ટમને બદલે તમારી સિસ્ટમની ડિફોલ્ટ વિન્ડો ટાઇટલબારનો ઉપયોગ કરો.",
+      "neutralGreyCanvas": "તટસ્થ ગ્રે કેનવાસ",
+      "neutralGreyCanvasDesc": "એપ થીમ બદલ્યા વગર વધુ ચોક્કસ રંગ અને એક્સપોઝર ગ્રેડિંગ માટે તટસ્થ ગ્રે કેનવાસનો ઉપયોગ કરો.",
+      "poppins": "Poppins",
+      "showImageCounts": "છબીની સંખ્યા બતાવો",
+      "system": "સિસ્ટમ ડિફોલ્ટ",
+      "theme": "થીમ",
+      "themeDesc": "એપ્લિકેશનનો દેખાવ અને અનુભૂતિ બદલો.",
+      "title": "સામાન્ય સેટિંગ્સ",
+      "toolFocusMode": "ટૂલ ફોકસ મોડ",
+      "toolFocusModeDesc": "જ્યારે તમે એકને વિસ્તૃત કરો છો ત્યારે પેનલમાંના અન્ય સાધનોને આપમેળે સંકુચિત કરે છે.",
+      "uiScale": "ઇન્ટરફેસ સ્કેલ",
+      "uiScaleCompact": "કોમ્પેક્ટ",
+      "uiScaleDefault": "ડિફોલ્ટ",
+      "uiScaleDesc": "તમારી સિસ્ટમ ડિસ્પ્લે સ્કેલિંગથી સ્વતંત્ર, ઇન્ટરફેસને નાનું કે મોટું બનાવો. નાની લેપટોપ સ્ક્રીન પર કોમ્પેક્ટ માપ વધુ ફિટ થાય છે.",
+      "uiScaleLarge": "મોટું",
+      "xmpSync": "XMP મેટાડેટા સમન્વયન",
+      "xmpSyncDesc": "અન્ય ફોટો એડિટર્સ સાથે સુસંગતતા માટે સ્ટાન્ડર્ડ XMP સાઇડકાર ફાઇલોમાં રેટિંગ્સ, કલર લેબલ્સ અને ટૅગ્સ સિંક કરો."
+    },
+    "keybinds": {
+      "actions": {
+        "auto_straighten": "સ્વતઃ સીધું",
+        "brush_size_down": "બ્રશનું કદ ઘટાડો",
+        "brush_size_up": "બ્રશનું કદ વધારો",
+        "color_label_blue": "રંગ લેબલ: વાદળી",
+        "color_label_green": "રંગ લેબલ: લીલો",
+        "color_label_none": "રંગ લેબલ: કંઈ નહીં",
+        "color_label_purple": "રંગ લેબલ: જાંબલી",
+        "color_label_red": "રંગ લેબલ: લાલ",
+        "color_label_yellow": "રંગ લેબલ: પીળો",
+        "copy_adjustments": "પસંદ કરેલ ગોઠવણોની નકલ કરો",
+        "copy_files": "પસંદ કરેલ ફાઇલ(ફાઈલો)ની નકલ કરો",
+        "copy_image_path": "પસંદ કરેલી છબી(ઓ)ના પાથની નકલ કરો",
+        "cycle_zoom": "સાયકલ ઝૂમ (ફિટ, 2x ફિટ, 100%)",
+        "delete_rejected": "નકારેલ ફાઇલો કાઢી નાખો",
+        "delete_selected": "પસંદ કરેલી ફાઇલ કાઢી નાખો",
+        "focus_search": "શોધ ક્ષેત્ર પર ફોકસ કરો",
+        "open_image": "પસંદ કરેલી છબી ખોલો",
+        "open_settings": "સેટિંગ્સ ખોલો",
+        "paste_adjustments": "કૉપિ કરેલ ગોઠવણો પેસ્ટ કરો",
+        "paste_files": "વર્તમાન ફોલ્ડરમાં ફાઇલ(ઓ) પેસ્ટ કરો",
+        "preview_next": "આગલી છબી",
+        "preview_prev": "પહેલાની છબી",
+        "rate_0": "સ્ટાર રેટિંગ: 0",
+        "rate_1": "સ્ટાર રેટિંગ: 1",
+        "rate_2": "સ્ટાર રેટિંગ: 2",
+        "rate_3": "સ્ટાર રેટિંગ: 3",
+        "rate_4": "સ્ટાર રેટિંગ: 4",
+        "rate_5": "સ્ટાર રેટિંગ: 5",
+        "redo": "ગોઠવણ ફરીથી કરો",
+        "rotate_left": "ઘડિયાળની વિરુદ્ધ દિશામાં 90° ફેરવો",
+        "rotate_right": "90° ઘડિયાળની દિશામાં ફેરવો",
+        "select_all": "બધી છબીઓ પસંદ કરો",
+        "show_original": "મૂળ બતાવો (પહેલા/પછી)",
+        "toggle_adjustments": "એડજસ્ટમેન્ટ પેનલને ટૉગલ કરો",
+        "toggle_ai": "AI પેનલને ટૉગલ કરો",
+        "toggle_analytics": "Analytics ડિસ્પ્લેને ટૉગલ કરો",
+        "toggle_black_white": "બ્લેક એન્ડ વ્હાઇટ ટૉગલ કરો",
+        "toggle_bottom_panel": "ફિલ્મસ્ટ્રીપને ટૉગલ કરો",
+        "toggle_crop": "ક્રોપ / સીધું કરો ટૉગલ કરો",
+        "toggle_crop_panel": "ક્રોપ પેનલને ટૉગલ કરો",
+        "toggle_export": "નિકાસ પેનલને ટૉગલ કરો",
+        "toggle_folder_tree": "ફોલ્ડર ટ્રી પેનલને ટૉગલ કરો",
+        "toggle_fullscreen": "પૂર્ણસ્ક્રીન ટૉગલ કરો",
+        "toggle_left_panel": "ડાબી પેનલને ટૉગલ કરો",
+        "toggle_library_exif": "EXIF ઓવરલેને ટૉગલ કરો",
+        "toggle_masks": "માસ્ક પેનલને ટૉગલ કરો",
+        "toggle_metadata": "મેટાડેટા પેનલને ટૉગલ કરો",
+        "toggle_pick": "પિક ફ્લેગને ટૉગલ કરો",
+        "toggle_presets": "પ્રીસેટ પેનલને ટૉગલ કરો",
+        "toggle_reject": "રિજેક્ટ ફ્લેગ ટૉગલ કરો",
+        "toggle_right_panel": "જમણી પેનલ ટૉગલ કરો",
+        "toggle_viewer_window": "બીજી વિન્ડોને ટૉગલ કરો",
+        "undo": "ગોઠવણ પૂર્વવત્ કરો",
+        "unflag": "ફ્લેગ દૂર કરો",
+        "zoom_100": "100% સુધી ઝૂમ કરો",
+        "zoom_fit": "ફિટ કરવા માટે ઝૂમ કરો",
+        "zoom_in": "ઝૂમ ઇન કરો",
+        "zoom_in_step": "ઝૂમ ઇન (સ્ટેપ દ્વારા)",
+        "zoom_out": "ઝૂમ આઉટ",
+        "zoom_out_step": "ઝૂમ આઉટ (સ્ટેપ દ્વારા)"
+      },
+      "sections": {
+        "editing": "સંપાદન",
+        "library": "લાઇબ્રેરી",
+        "panels": "પેનલ્સ",
+        "rating": "રેટિંગ અને લેબલ્સ",
+        "view": "જુઓ"
+      }
+    },
+    "language": "ભાષા",
+    "languageDesc": "એપ્લિકેશનની ભાષા બદલો.",
+    "lenses": {
+      "addButton": "મારા લેન્સમાં ઉમેરો",
+      "addNew": "નવા લેન્સ ઉમેરો",
+      "description": "લેન્સ કરેક્શન પેનલમાં ઝડપથી ઍક્સેસ કરવા માટે તમારા વારંવાર ઉપયોગમાં લેવાતા લેન્સની સૂચિ બનાવો.",
+      "manufacturerPlaceholder": "ઉત્પાદક પસંદ કરો",
+      "modelPlaceholder": "લેન્સ મોડલ પસંદ કરો",
+      "noLenses": "હજુ સુધી કોઈ લેન્સ ઉમેર્યા નથી.",
+      "removeTooltip": "લેન્સ દૂર કરો",
+      "saved": "સાચવેલા લેન્સ",
+      "title": "મારા લેન્સ"
+    },
+    "processing": {
+      "advanced": {
+        "heading": "અદ્યતન",
+        "headingDesc": "થંબનેલ્સ, કેશીંગ અને નિકાસ માટે પ્રદર્શન ટ્યુનિંગ. ડિફોલ્ટ મોટાભાગના વપરાશકર્તાઓ માટે સારી રીતે કાર્ય કરે છે.",
+        "title": "અદ્યતન સેટિંગ્સ",
+        "auto": "ઓટો",
+        "exportThreads": "સમાંતર નિકાસ",
+        "exportThreadsDesc": "એક જ સમયે નિકાસ કરાયેલ છબીઓની સંખ્યા. તમારા CPU ના આધારે સ્વતઃ મૂલ્ય પસંદ કરે છે. જો મોટી નિકાસ નિષ્ફળ જાય અથવા તમારા GPU માં ઓછી મેમરી હોય તો તેને ઓછું કરો.",
+        "exportMemoryLimit": "નિકાસ મેમરી મર્યાદા",
+        "exportMemoryLimitDesc": "મફત RAM નો શેર જેનો બેચ નિકાસ ઉપયોગ કરી શકે છે. મોટી નિકાસ દરમિયાન અન્ય એપ્લિકેશન્સને પ્રતિભાવશીલ રાખવા માટે તેને નીચે કરો."
+      },
+      "ai": {
+        "cloud": {
+          "description": "જેઓ સરળ ઉકેલ ઇચ્છે છે તેમના માટે, વૈકલ્પિક સબ્સ્ક્રિપ્શન કોઈપણ મુશ્કેલી વિના સ્વ-હોસ્ટિંગ જેવા જ ઉચ્ચ-ગુણવત્તાવાળા પરિણામો પ્રદાન કરે છે. આ પ્રોજેક્ટને ટેકો આપવાનો સૌથી અનુકૂળ વિકલ્પ અને શ્રેષ્ઠ માર્ગ છે.",
+          "feature1": "મહત્તમ સગવડ, કોઈ સેટઅપ નથી",
+          "feature2": "સ્વ-હોસ્ટિંગ જેવા જ પરિણામો",
+          "feature3": "કોઈ શક્તિશાળી હાર્ડવેરની જરૂર નથી",
+          "signedIn": {
+            "active": "ક્લાઉડ સબ્સ્ક્રિપ્શન સક્રિય",
+            "inactive": "કોઈ સક્રિય સબ્સ્ક્રિપ્શન નથી",
+            "logout": "લોગ આઉટ કરો",
+            "manage": "મેનેજ કરો",
+            "usage": "માસિક ઉપયોગ",
+            "usageStats": "{{requests}} / {{limit}} વિનંતીઓ"
+          },
+          "signedOut": {
+            "noAccount": "તમારી પાસે ખાતું નથી?",
+            "signup": "વેબસાઇટ પર સાઇન અપ કરો",
+            "upgradeBtn": "વેબસાઇટ પર અપગ્રેડ કરો",
+            "upgradeDesc": "Cloud AI સુવિધાઓનો ઉપયોગ કરવા માટે, તમારે ક્લાઉડ સબ્સ્ક્રિપ્શનની જરૂર છે."
+          },
+          "statuses": {
+            "connecting": "કનેક્ટ કરી રહ્યું છે...",
+            "retry": "કનેક્શનનો ફરી પ્રયાસ કરો",
+            "unsupported": "ક્લાઉડ સાઇન-ઇન હાલમાં ફક્ત ડેસ્કટોપ પર ઉપલબ્ધ છે."
+          },
+          "title": "ક્લાઉડ સર્વિસ"
+        },
+        "connector": {
+          "address": "AI કનેક્ટર સરનામું",
+          "addressDesc": "તમારા ચાલી રહેલા AI કનેક્ટર ઉદાહરણનું સરનામું અને પોર્ટ દાખલ કરો. જનરેટિવ AI સુવિધાઓ માટે જરૂરી છે.",
+          "description": "સક્ષમ GPU ધરાવતા વપરાશકર્તાઓ માટે કે જેઓ મહત્તમ નિયંત્રણ ઇચ્છે છે, તમારા પોતાના કનેક્ટર સર્વર સાથે AfterEvents ને કનેક્ટ કરો. આ તમને તકનીકી વર્કફ્લો માટે સંપૂર્ણ નિયંત્રણ આપે છે.",
+          "failed": "કનેક્શન નિષ્ફળ થયું.",
+          "feature1": "તમારા પોતાના ComfyUI ઉદાહરણનો ઉપયોગ કરો",
+          "feature2": "ખર્ચ-મુક્ત અદ્યતન જનરેટિવ સંપાદનો",
+          "feature3": "કસ્ટમ વર્કફ્લો પસંદગી",
+          "success": "કનેક્શન સફળ!",
+          "test": "ટેસ્ટ",
+          "testing": "પરીક્ષણ...",
+          "title": "સ્વ-હોસ્ટેડ (AfterEvents AI કનેક્ટર)"
+        },
+        "cpu": {
+          "description": "સીધા જ AfterEvents માં સંકલિત, આ સુવિધાઓ સંપૂર્ણપણે તમારા કમ્પ્યુટર પર ચાલે છે. તેઓ ઝડપી, મફત છે અને કોઈ સેટઅપની જરૂર નથી, જે તેમને રોજિંદા વર્કફ્લો પ્રવેગ માટે આદર્શ બનાવે છે.",
+          "feature1": "AI માસ્કીંગ (વિષય, સ્કાય, ફોરગ્રાઉન્ડ)",
+          "feature2": "ઓટોમેટિક ઈમેજ ટેગીંગ",
+          "feature3": "ઉપકરણ પર સરળ જનરેટિવ રિપ્લેસ",
+          "gpuAcceleration": "GPU પ્રવેગક",
+          "gpuAccelerationDesc": "વધુ ઝડપી પરિણામો માટે તમારા ગ્રાફિક્સ કાર્ડ પર ડેનોઈઝ, માસ્ક, ઊંડાઈ અને સામાન્ય નકશા અને ટેગિંગ જેવી બિલ્ટ-ઇન AI સુવિધાઓ ચલાવો. જો તમે ક્રેશ અથવા ખોટા AI પરિણામો અનુભવો તો આને અક્ષમ કરો.",
+          "gpuAccelerationLabel": "AI મોડલ્સ માટે GPU નો ઉપયોગ કરો",
+          "title": "બિલ્ટ-ઇન AI"
+        },
+        "aiFree": {
+          "description": "દરેક AI સુવિધા બંધ કરો. તમામ AI-સંબંધિત નિયંત્રણો ઈન્ટરફેસથી છુપાયેલા છે તેથી AfterEvents સંપૂર્ણપણે પરંપરાગત RAW સંપાદક તરીકે કામ કરે છે.",
+          "feature1": "UI માં કોઈ AI માસ્ક, લેન્સ બ્લર અથવા જનરેટિવ એડિટ્સ નથી",
+          "feature2": "હાલના AI સંપાદનો હજુ પણ સામાન્ય રીતે રેન્ડર થાય છે",
+          "feature3": "સ્વચ્છ, વધુ ધ્યાન કેન્દ્રિત ઇન્ટરફેસ",
+          "title": "AI-ફ્રી"
+        },
+        "description": "AfterEventsનું AI લવચીકતા માટે બનાવવામાં આવ્યું છે. ઝડપી સ્થાનિક ટૂલ્સથી લઈને શક્તિશાળી સ્વ-હોસ્ટિંગ સુધીનો તમારો આદર્શ વર્કફ્લો પસંદ કરો.",
+        "providers": {
+          "aiConnector": "AI કનેક્ટર",
+          "aiFree": "AI-ફ્રી",
+          "cloud": "ક્લાઉડ",
+          "cpu": "બિલ્ટ-ઇન"
+        },
+        "title": "જનરેટિવ AI"
+      },
+      "alwaysDecodeRaw": "હંમેશા RAW ને ડીકોડ કરો",
+      "alwaysDecodeRawDesc": "એમ્બેડેડ JPEG પૂર્વાવલોકનોનો ઉપયોગ કરવાને બદલે થંબનેલ્સ માટે સંપૂર્ણ RAW ડીકોડિંગની ફરજ પાડો. જો તમારી થંબનેલ્સ ખુલેલી ઈમેજની સરખામણીમાં અલગ રંગ અથવા કોન્ટ્રાસ્ટમાં દેખાય તો આને સક્ષમ કરો.",
+      "alwaysDecodeRawLabel": "થંબનેલ્સ માટે હંમેશા RAW ને ડીકોડ કરો",
+      "backend": "પ્રોસેસિંગ બેકએન્ડ",
+      "backendDesc": "ગ્રાફિક્સ API પસંદ કરો. 'ઓટો' ની ભલામણ કરવામાં આવે છે. કેટલીક સિસ્ટમો પર ક્રેશને ઠીક કરી શકે છે.",
+      "backends": {
+        "auto": "ઓટો",
+        "dx12": "ડાયરેક્ટએક્સ 12",
+        "gl": "OpenGL",
+        "metal": "Metal",
+        "vulkan": "Vulkan"
+      },
+      "dynamicDesc": "એડિટર તમારા ડિસ્પ્લેની વાસ્તવિક પિક્સેલ ઘનતા સાથે મેળ કરવા માટે પૂર્વાવલોકન રેન્ડર કરે છે. આ સુનિશ્ચિત કરે છે કે દરેક વિગત 1:1 પિક્સેલ ચોકસાઈ સાથે રજૂ થાય છે, ઝૂમ કરતી વખતે અને ફોકસ ચેક કરતી વખતે મહત્તમ સ્પષ્ટતા પૂરી પાડે છે.",
+      "editIn": {
+        "add": "પ્રોગ્રામ ઉમેરો",
+        "args": "દલીલો ({ફાઇલ} = છબી પાથ)",
+        "browse": "બ્રાઉઝ કરો",
+        "description": "\"એડિટ ઇન\" મેનુ માટે પ્રોગ્રામ્સ.",
+        "executable": "પ્રોગ્રામ્સ",
+        "modes": {
+          "original": "મૂળ ફાઇલ મોકલો",
+          "rendered": "સંપાદિત TIFF મોકલો"
+        },
+        "name": "નામ",
+        "path": "પ્રોગ્રામ પાથ",
+        "remove": "દૂર કરો",
+        "title": "માં સંપાદિત કરો"
+      },
+      "enableLivePreviews": "લાઇવ પૂર્વાવલોકનો સક્ષમ કરો",
+      "highDpi": "ઉચ્ચ-DPI રેન્ડરીંગ",
+      "highDpiDesc": "તમારી સ્ક્રીનના મૂળ {{dpr}}x ભૌતિક પિક્સેલ રિઝોલ્યુશન પર પૂર્વાવલોકનો રેન્ડર કરો. સૌથી તીક્ષ્ણ શક્ય પૂર્વાવલોકન ઉત્પન્ન કરે છે પરંતુ નોંધપાત્ર રીતે વધુ મેમરીનો ઉપયોગ કરે છે.",
+      "highDpiDescStandard": "આ સેટિંગ માત્ર ઉચ્ચ-DPI ડિસ્પ્લેને અસર કરે છે. તમારું વર્તમાન પ્રદર્શન પ્રમાણભૂત રિઝોલ્યુશન છે.",
+      "imageCache": "ડીકોડેડ ઇમેજ કેશ",
+      "imageCacheDesc": "પૂર્ણ-રિઝોલ્યુશનની મહત્તમ સંખ્યા RAM માં રાખવામાં આવી છે. ઉચ્ચ મૂલ્યો તાજેતરમાં સંપાદિત છબીઓ વચ્ચે ત્વરિત સ્વિચિંગ બનાવે છે, પરંતુ નોંધપાત્ર રીતે વધુ મેમરીનો ઉપયોગ કરે છે.",
+      "images": "છબીઓ",
+      "linuxCompat": "Linux સુસંગતતા મોડ",
+      "linuxCompatDesc": "GPU ડ્રાઇવર ક્રેશની આસપાસ કામ કરવા માટે સોફ્ટવેર કમ્પોઝીટીંગને દબાણ કરો. Nvidia GPU ને પહેલાથી જ હળવા, સ્વચાલિત ઉપાય મળે છે, તેથી જો તમે હજી પણ લોંચ પર અથવા છબીઓ ખોલતી વખતે ક્રેશ અનુભવો છો તો જ આને સક્ષમ કરો.",
+      "linuxCompatLabel": "સુસંગતતા મોડને સક્ષમ કરો",
+      "livePreviewQuality": "લાઇવ પૂર્વાવલોકન ગુણવત્તા",
+      "livePreviewQualityDesc": "સ્લાઇડર્સને ખેંચતી વખતે ઇમેજના રિઝોલ્યુશન અને કમ્પ્રેશનને નિયંત્રિત કરે છે. નીચી ગુણવત્તા નોંધપાત્ર રીતે પ્રતિભાવમાં સુધારો કરે છે.",
+      "livePreviews": "લાઇવ ઇન્ટરેક્ટિવ પૂર્વાવલોકનો",
+      "livePreviewsDesc": "સ્લાઇડર્સ ખેંચતી વખતે તરત જ પૂર્વાવલોકન અપડેટ કરો. જો ગોઠવણો દરમિયાન ઈન્ટરફેસ ઢીલું લાગે તો આને અક્ષમ કરો.",
+      "mediumThumbnailRes": "સંપાદક થંબનેલ રીઝોલ્યુશન",
+      "mediumThumbnailResDesc": "સંપાદકમાં સંપૂર્ણ છબીઓ લોડ થાય ત્યારે દર્શાવેલ પૂર્વાવલોકનનું રીઝોલ્યુશન.",
+      "modes": {
+        "dynamic": "ગતિશીલ",
+        "static": "નિશ્ચિત રીઝોલ્યુશન"
+      },
+      "nativeDpi": "મૂળ DPI પર રેન્ડર કરો",
+      "preprocessing": {
+        "appleRaw9": "Apple RAW 9 એન્જિન",
+        "appleRaw9Desc": "એપલના કોર ઇમેજ RAW 9 ડીકોડર સાથે RAW ફાઇલો વિકસાવો, જે ન્યુરલ એન્જિન પર એક પગલામાં ડેમોસેઇક્સ અને ડિનોઇઝ કરે છે. macOS 27 અથવા પછીના અને સપોર્ટેડ કેમેરાની જરૂર છે; અસમર્થિત ફાઇલો આપમેળે બિલ્ટ-ઇન ડીકોડરનો ઉપયોગ કરે છે. ડિફૉલ્ટ ડીકોડર કરતાં ધીમું. થંબનેલ્સને અસર થતી નથી.",
+        "applyPreprocessing": "બિન-RAWs પર પ્રીપ્રોસેસિંગ લાગુ કરો",
+        "applyPreprocessingDesc": "જો સક્ષમ હોય, તો બેઝ કલર નોઈઝ રિડક્શન અને ઉપરની પ્રી-શાર્પનિંગ પણ માનક ફોર્મેટ પર લાગુ થશે.",
+        "baselineExposure": "બેઝલાઇન એક્સપોઝર",
+        "baselineExposureAmount": "બેઝલાઇન માત્રા",
+        "baselineExposureAmountDesc": "RAW ફાઇલોમાં એક્સપોઝર ઉમેર્યું. ડાર્કટેબલ +0.7 EV નો ઉપયોગ કરે છે.",
+        "baselineExposureDesc": "RAW ફાઇલોને નિશ્ચિત માત્રા દ્વારા તેજસ્વી કરે છે, ઉપરાંત DNG BaselineExposure ટેગ હાજર હોય તો.",
+        "colorNr": "બેઝ કલર અવાજ ઘટાડો",
+        "colorNrDesc": "ક્રોમા અવાજને દૂર કરવા માટે પાઇપલાઇનની શરૂઆતમાં ક્રોસ-દ્વિપક્ષીય ફિલ્ટર લાગુ કરે છે. ઉચ્ચ મૂલ્ય = મજબૂત NR.",
+        "defaultNonRawTonemapper": "ડિફોલ્ટ નોન-RAW ટોનમેપર",
+        "defaultNonRawTonemapperDesc": "બિન-RAW છબીઓ (દા.ત., JPEG, PNG) પર લાગુ કરવા માટેનું ટોનમેપર.",
+        "defaultRawTonemapper": "ડિફોલ્ટ RAW ટોનમેપર",
+        "defaultRawTonemapperDesc": "RAW છબીઓ પર લાગુ કરવા માટેનું ટોનમેપર.",
+        "enableAppleRaw9": "RAW ફાઇલો માટે Apple RAW 9 નો ઉપયોગ કરો",
+        "enableBaselineExposure": "RAW ફાઇલો પર બેઝલાઇન એક્સપોઝર લાગુ કરો",
+        "enableHighlightPreservation": "હાઇલાઇટ-સંરક્ષિત કેમેરા મોડ્સને વળતર આપો",
+        "enablePreprocessingNonRaws": "બિન-RAW માટે સક્ષમ કરો",
+        "enableTonemapperOverride": "ટોનમેપર ઓવરરાઇડને સક્ષમ કરો",
+        "highlightPreservation": "જાળવણી વળતરને હાઇલાઇટ કરો",
+        "highlightPreservationDesc": "હાઇલાઇટ-પ્રિઝર્વિંગ કેમેરા મોડ્સ, જેમ કે ફુજીફિલ્મ DR200/DR400 અથવા નિકોન એક્ટિવ ડી-લાઇટિંગ દ્વારા ઘટાડાયેલા એક્સપોઝરને પુનઃસ્થાપિત કરે છે.",
+        "highlightRecovery": "RAW હાઇલાઇટ પુનઃપ્રાપ્તિ",
+        "highlightRecoveryDesc": "RAW ફાઇલોમાં ક્લિપ કરેલી હાઇલાઇટ્સમાંથી કેટલી વિગતો પુનઃપ્રાપ્ત કરવામાં આવે છે તેનું નિયંત્રણ કરે છે. ઉચ્ચ મૂલ્યો વધુ વિગતવાર પુનઃપ્રાપ્ત કરે છે પરંતુ જાંબલી કલાકૃતિઓ રજૂ કરી શકે છે.",
+        "linearOptions": {
+          "auto": "ઓટો",
+          "gamma": "ગામા લાગુ કરો",
+          "gamma_skip_calib": "ગામા લાગુ કરો અને માપાંકન છોડો",
+          "skip_calib": "માપાંકન છોડો"
+        },
+        "linearRaw": "લીનિયર RAW પ્રોસેસિંગ",
+        "linearRawDesc": "કેટલીક DNG ફાઇલોમાં કલર કાસ્ટ અથવા ગુલાબી રંગને ઠીક કરે છે. પહેલાથી પ્રોસેસ કરેલ LinearRAW ડેટાને કેવી રીતે અર્થઘટન કરવામાં આવે છે તે નિયંત્રિત કરે છે.",
+        "sharpening": "બેઝ પ્રી-શાર્પનિંગ",
+        "sharpeningDesc": "પાઇપલાઇનની શરૂઆતમાં સૌમ્ય વિગતવાર વૃદ્ધિ લાગુ કરે છે. ઉચ્ચ મૂલ્ય = વધુ શાર્પનિંગ.",
+        "title": "ઇમેજ પ્રીપ્રોસેસિંગ",
+        "tonemapperOptions": {
+          "agx": "AgX",
+          "basic": "મૂળભૂત"
+        },
+        "tonemapperOverride": "વૈશ્વિક ટોનમેપર ઓવરરાઇડ",
+        "tonemapperOverrideDesc": "તમામ છબીઓ માટે વૈશ્વિક સ્તરે ચોક્કસ ટોનમેપરને દબાણ કરો, ગોઠવણો પેનલમાંથી ટોનમેપર સ્વિચ છુપાવો."
+      },
+      "previewRes": "પૂર્વાવલોકન રીઝોલ્યુશન",
+      "previewResDesc": "પૂર્વાવલોકનનું મહત્તમ રીઝોલ્યુશન નક્કી કરે છે. નીચલા મૂલ્યો પ્રભાવમાં નોંધપાત્ર સુધારો કરે છે.",
+      "previewStrategy": "પૂર્વાવલોકન રેન્ડરીંગ વ્યૂહરચના",
+      "qualities": {
+        "high": "ઉચ્ચ ગુણવત્તા",
+        "performance": "પ્રદર્શન"
+      },
+      "renderScale": "રેન્ડર રીઝોલ્યુશન સ્કેલ",
+      "renderScaleDesc": "તમારા ડિસ્પ્લેને સંબંધિત રેન્ડર રીઝોલ્યુશનને સ્કેલ કરે છે. નીચા મૂલ્યો ઉચ્ચ-રિઝોલ્યુશન સ્ક્રીનો પર કેટલાક તીક્ષ્ણતાના ખર્ચે પ્રદર્શનમાં સુધારો કરે છે.",
+      "restartRequired": "પ્રોસેસિંગ એન્જિનમાં ફેરફારોને અસર કરવા માટે એપ્લિકેશનને પુનઃપ્રારંભ કરવાની જરૂર છે.",
+      "saveRelaunch": "સાચવો અને ફરીથી લોંચ કરો",
+      "smallThumbnailRes": "ગ્રીડ થંબનેલ રિઝોલ્યુશન",
+      "smallThumbnailResDesc": "લાઇબ્રેરી ગ્રીડમાં દર્શાવેલ થંબનેલ્સનું રિઝોલ્યુશન.",
+      "staticDesc": "એડિટર ઇમેજને નિશ્ચિત રિઝોલ્યુશન પર રેન્ડર કરે છે. આ મોડ સૌથી ઝડપી અને સૌથી સુસંગત છે, જે તેને લોઅર-એન્ડ હાર્ડવેર માટે આદર્શ બનાવે છે જ્યાં પિક્સેલ-પરફેક્ટ ઝૂમ કરતાં સરળ પ્રદર્શનને પ્રાથમિકતા આપવામાં આવે છે.",
+      "threads": "થ્રેડ્સ",
+      "thumbnailRes": "થંબનેલ રીઝોલ્યુશન",
+      "thumbnailResDesc": "જનરેટ કરેલ લાઇબ્રેરી થંબનેલ્સનું રિઝોલ્યુશન નક્કી કરે છે. લોડિંગ દરમિયાન ઉચ્ચ મૂલ્યો વધુ તીવ્ર છબીઓ ઉત્પન્ન કરે છે.",
+      "title": "પ્રોસેસિંગ એન્જિન",
+      "wgpu": "WGPU ડાયરેક્ટ રેન્ડરિંગ",
+      "wgpuDescAndroid": "ત્વરિત પ્રતિભાવશીલ લાઇવ પૂર્વાવલોકનો માટે બ્રાઉઝર એન્કોડિંગને બાયપાસ કરે છે. (Android પર અક્ષમ કરેલ: નેટિવ WGPU સપાટી બનાવટ હાલમાં મોબાઇલ વેબવ્યુની સાથે સમર્થિત નથી.)",
+      "wgpuDescLinuxExperimental": "Linux પર પ્રાયોગિક અને અસ્થિર હોઈ શકે છે.",
+      "wgpuDescLinuxX11": "X11 પર ઉપલબ્ધ નથી.",
+      "wgpuDescRecommended": "ત્વરિત પ્રતિભાવશીલ લાઇવ પૂર્વાવલોકનો માટે બ્રાઉઝર એન્કોડિંગને બાયપાસ કરે છે. કામગીરી માટે ખૂબ આગ્રહણીય.",
+      "wgpuLabel": "ડાયરેક્ટ WGPU રેન્ડરને સક્ષમ કરો",
+      "workerThreads": "થંબનેલ વર્કર થ્રેડ્સ",
+      "workerThreadsDesc": "થંબનેલ્સ બનાવવા માટે વપરાતા સમાંતર થ્રેડોની સંખ્યા. ઉચ્ચ મૂલ્યો લાઇબ્રેરી લોડિંગને ઝડપી બનાવે છે પરંતુ વધુ CPU અને RAM નો ઉપયોગ કરે છે."
+    },
+    "tagging": {
+      "addCustomPlaceholder": "કસ્ટમ AI ટૅગ્સ ઉમેરો (અલ્પવિરામથી અલગ)...",
+      "addCustomTooltip": "AI ટેગ ઉમેરો",
+      "addShortcutTooltip": "શોર્ટકટ ઉમેરો",
+      "addShortcutsPlaceholder": "શોર્ટકટ્સ ઉમેરો (અલ્પવિરામથી અલગ કરેલ)...",
+      "aiTagging": "AI ટેગીંગ",
+      "aiTaggingDesc": "AI (CLIP) મોડલનો ઉપયોગ કરીને ઓટોમેટિક ઈમેજ ટેગીંગને સક્ષમ કરે છે. આ એક વધારાનું મોડેલ ડાઉનલોડ કરશે અને ફોલ્ડર્સ બ્રાઉઝ કરતી વખતે પ્રભાવને અસર કરશે. ટૅગ્સનો ઉપયોગ ફોલ્ડર શોધવા માટે થાય છે.",
+      "amount": "માત્રા",
+      "automaticAiTagging": "ઓટોમેટિક AI ટેગીંગ",
+      "clearCustomTooltip": "AI ટેગ સૂચિ સાફ કરો",
+      "clearShortcutsTooltip": "શૉર્ટકટ્સ ટૅગ સૂચિ સાફ કરો",
+      "customList": "કસ્ટમ AI ટેગ સૂચિ",
+      "customListDesc": "જો પ્રદાન કરવામાં આવે, તો AI ફક્ત આ સૂચિમાંથી ટૅગ્સનો ઉપયોગ કરશે, AfterEventsની બિલ્ટ-ઇન સૂચિને ઓવરરાઇડ કરીને. ટેગીંગ માત્ર અંગ્રેજીમાં જ કામ કરે છે.",
+      "maxAiTags": "મહત્તમ AI ટૅગ્સ",
+      "maxAiTagsDesc": "પ્રતિ ઈમેજ જનરેટ કરવા માટે ટૅગ્સની મહત્તમ સંખ્યા.",
+      "noCustomTags": "કોઈ કસ્ટમ AI ટૅગ્સ નથી (બિલ્ટ-ઇન સૂચિનો ઉપયોગ કરીને)",
+      "noShortcuts": "કોઈ શૉર્ટકટ્સ ઉમેર્યા નથી",
+      "removeCustomTooltip": "ટેગ \"{{tag}}\" દૂર કરો",
+      "removeShortcutTooltip": "શોર્ટકટ \"{{shortcut}}\" દૂર કરો",
+      "shortcuts": "ટૅગિંગ શૉર્ટકટ્સ",
+      "shortcutsDesc": "ટૅગ્સની સૂચિ કે જે ટેગિંગ સંદર્ભ મેનૂમાં શૉર્ટકટ તરીકે દેખાશે.",
+      "title": "ટેગીંગ"
+    },
+    "thanks": {
+      "description": "નીચેના પ્રોજેક્ટ્સ માટે ખૂબ ખૂબ આભાર જે AfterEvents ના વિકાસમાં ખૂબ જ મહત્વપૂર્ણ હતા:",
+      "list": {
+        "birefnet": "ઉચ્ચ-રિઝોલ્યુશન સેગ્મેન્ટેશન મોડલ માટે જે AI ફોરગ્રાઉન્ડ ડિટેક્શનને પાવર આપે છે.",
+        "darktable": "આ કાર્યના ભાગોને માર્ગદર્શન આપતા કેટલાક સંદર્ભ અમલીકરણો માટે.",
+        "depth": "શક્તિશાળી મોનોક્યુલર ઊંડાઈ અંદાજ મોડલ માટે જે AI ડેપ્થ માસ્કિંગ ક્ષમતાઓને સક્ષમ કરે છે.",
+        "efficientsam3": "SAM 3 માંથી નિસ્યંદિત કાર્યક્ષમ પ્રોમ્પ્ટેબલ સેગ્મેન્ટેશન મોડલ માટે જે AI સ્કાય અને ટેક્સ્ટ માસ્કને પાવર કરે છે.",
+        "lama": "શક્તિશાળી અને સરળ ઇમેજ ઇનપેઇન્ટિંગ મોડેલ માટે, જે સામગ્રી-જાગૃત ભરણ અને ઑબ્જેક્ટ દૂર કરવા સક્ષમ કરે છે.",
+        "lensfun": "તેની અમૂલ્ય ઓપન-સોર્સ લાઇબ્રેરી અને ઓટોમેટિક લેન્સ કરેક્શન માટે વ્યાપક ડેટાબેઝ માટે.",
+        "libgphoto2": "વ્યાપક કૅમેરા કમ્યુનિકેશન લાઇબ્રેરી માટે AfterEventsના ટેથરિંગ અને રિમોટ કૅપ્ચર સબસિસ્ટમને પાવરિંગ કરે છે.",
+        "mediapipe": "ઝડપી ચહેરાના લેન્ડમાર્ક અને સેગ્મેન્ટેશન મોડલ્સ માટે જે AI ફેસ માસ્કને પાવર આપે છે.",
+        "negpy": "નેગેટિવ રૂપાંતરના તર્ક પાછળની પ્રેરણા માટે.",
+        "nind": "AI મોડલ્સ પ્રદાન કરવા માટે જે AfterEvents માં AI અવાજ ઘટાડવાની ક્ષમતાઓને શક્તિ આપે છે.",
+        "span": "RapidRes, AfterEventsની પાછળના બેઝ AI મોડલ માટે, AfterEvents દ્વારા તેની પોતાની કાચી પાઇપલાઇન પર 2x AI અપસ્કેલિંગ (ફિલિપ હોફમેન દ્વારા, CC BY 4.0 દ્વારા).",
+        "rawler": "ઉત્તમ રસ્ટ ક્રેટ માટે જે આ પ્રોજેક્ટમાં RAW ફાઇલ પ્રોસેસિંગ માટે પાયો પૂરો પાડે છે.",
+        "sam2": "AI વિષય શોધ ક્ષમતાઓ માટે ઉપયોગમાં લેવાતા ફાઉન્ડેશન મોડલ પ્રદાન કરવા માટે.",
+        "spektrafilm": "એન્ડ્રીયા વોલ્પાટો દ્વારા સ્પેક્ટ્રલી-આધારિત ફિલ્મ ઇમ્યુલેશન LUTs માટે, AfterEventsના બિલ્ટ-ઇન ફિલ્મ ઇમ્યુલેશનને પાવર આપવા માટે વપરાય છે. લાયસન્સ CC BY-SA 4.0.",
+        "you": "AfterEvents નો ઉપયોગ કરવા અને સપોર્ટ કરવા માટે. તમારી રુચિ આ પ્રોજેક્ટને જીવંત અને વિકસિત રાખે છે.",
+        "youLabel": "તમે"
+      },
+      "title": "ખાસ આભાર"
+    },
+    "themes": {
+      "dark": "ડાર્ક",
+      "grey": "ગ્રે",
+      "light": "લાઇટ"
+    },
+    "title": "સેટિંગ્સ",
+    "tooltips": {
+      "goHome": "હોમ પર જાઓ"
+    }
+  },
+  "tethering": {
+    "aperture": "એપર્ચર",
+    "aperturePlaceholder": "દા.ત. 2.8",
+    "autoApplyPreset": "ઓટો એપ્લાય પ્રીસેટ",
+    "autoOpenCaptured": "કૅપ્ચર કરેલી છબી ઑટો-ઓપન કરો",
+    "cameraConnected": "કેમેરા કનેક્ટેડ",
+    "capturing": "કેપ્ચર કરી રહ્યાં છીએ...",
+    "changePreset": "બદલો",
+    "clearPreset": "પ્રીસેટ સાફ કરો",
+    "connectCamera": "કેમેરા કનેક્ટ કરો",
+    "expComp": "સમાપ્તિ. કોમ્પ",
+    "expCompPlaceholder": "દા.ત. 0.0",
+    "expMode": "સમાપ્તિ. મોડ",
+    "exposureSettings": "એક્સપોઝર સેટિંગ્સ",
+    "flipHorizontal": "ફ્લિપ હોરિઝોન્ટલ",
+    "generalSettings": "સામાન્ય સેટિંગ્સ",
+    "ghostOverlayAlt": "ઘોસ્ટ ઓવરલે",
+    "iso": "ISO",
+    "isoPlaceholder": "દા.ત. 400",
+    "liveViewAlt": "લાઇવ વ્યુ",
+    "metering": "મીટરિંગ મોડ",
+    "noCameraDetected": "કોઈ કૅમેરો મળ્યો નથી",
+    "noCamerasFound": "કોઈ કેમેરા મળ્યા નથી. ખાતરી કરો કે તે જોડાયેલ છે અને PC રિમોટ મોડમાં છે.",
+    "overlayLastShot": "ઓવરલે લાસ્ટ શોટ",
+    "overlayOff": "બંધ",
+    "rotate90": "90° ફેરવો",
+    "scanTooltip": "કેમેરા માટે સ્કેન કરો",
+    "selectCamera": "કેમેરા પસંદ કરો",
+    "selectCameraPlaceholder": "કૅમેરો પસંદ કરો",
+    "shutter": "શટર",
+    "shutterPlaceholder": "દા.ત. 1/200",
+    "startLiveView": "લાઇવ વ્યૂ શરૂ કરો",
+    "status": "સ્થિતિ",
+    "stopLiveView": "લાઇવ વ્યૂ રોકો",
+    "title": "ટિથરિંગ",
+    "toasts": {
+      "afFailed": "ઑટોફોકસ ટ્રિગર નિષ્ફળ થયું",
+      "cameraDisconnected": "કૅમેરો ડિસ્કનેક્ટ થયો",
+      "captureFailed": "કેપ્ચર નિષ્ફળ થયું: {{err}}",
+      "communicationFailed": "કેમેરા સાથે વાતચીત કરવામાં નિષ્ફળ",
+      "connectionFailed": "કનેક્શન નિષ્ફળ થયું: {{err}}",
+      "detectionFailed": "શોધ નિષ્ફળ: {{err}}",
+      "noCamerasFound": "કોઈ કેમેરા મળ્યા નથી. ખાતરી કરો કે તે PC રિમોટ મોડમાં છે.",
+      "presetApplyFailed": "કેપ્ચર કરેલી છબી પર પ્રીસેટ લાગુ કરવામાં નિષ્ફળ",
+      "selectFolderFirst": "કૃપા કરીને પહેલા તમારી લાઇબ્રેરીમાં એક માનક ફોલ્ડર પસંદ કરો.",
+      "setFailed": "સેટ કરવામાં નિષ્ફળ {{key}}: {{err}}"
+    },
+    "triggerAutofocus": "ઑટોફોકસ ટ્રિગર કરો",
+    "triggerCapture": "કેપ્ચર",
+    "wbTemp": "WB ટેમ્પ (K)",
+    "wbTempPlaceholder": "દા.ત. 5600",
+    "whiteBalance": "વ્હાઇટ બેલેન્સ"
+  },
+  "ui": {
+    "bottomBar": {
+      "imagesSelected": "{{total}} માંથી {{current}} છબીઓ પસંદ કરી",
+      "tooltips": {
+        "collapseFilmstrip": "ફિલ્મસ્ટ્રીપ સંકુચિત કરો",
+        "collapseLeft": "ડાબી પેનલને સંકુચિત કરો",
+        "collapseRight": "જમણી પેનલને સંકુચિત કરો",
+        "copyPasteSettings": "કૉપિ અને પેસ્ટ સેટિંગ્સ",
+        "copySettings": "કૉપિ સેટિંગ્સ",
+        "customZoom": "કસ્ટમ ઝૂમ ટકાવારી દાખલ કરવા માટે ક્લિક કરો",
+        "expandFilmstrip": "ફિલ્મસ્ટ્રીપ વિસ્તૃત કરો",
+        "expandLeft": "ડાબી પેનલ વિસ્તૃત કરો",
+        "expandRight": "જમણી પેનલ વિસ્તૃત કરો",
+        "export": "નિકાસ કરો",
+        "pasteSettings": "સેટિંગ્સ પેસ્ટ કરો",
+        "quickFilter": "ઝડપી ફિલ્ટર",
+        "rateStars_one": "1 સ્ટાર રેટ કરો",
+        "rateStars_other": "રેટ {{count}} સ્ટાર્સ",
+        "resetZoom": "ઝૂમને ફીટ વિન્ડો પર રીસેટ કરો",
+        "selectToRate": "રેટ કરવા માટે એક છબી પસંદ કરો"
+      },
+      "zoomLabel": "ઝૂમ",
+      "zoomLabelReset": "ઝૂમ રીસેટ કરો"
+    },
+    "collapsibleSection": {
+      "disableSection": "વિભાગને અક્ષમ કરો",
+      "enableSection": "વિભાગને સક્ષમ કરો"
+    },
+    "colorWheel": {
+      "hue": "હ્યુ",
+      "hueAbbreviation": "એચ:",
+      "luminance": "લ્યુમિનેન્સ",
+      "reset": "રીસેટ કરો",
+      "saturation": "સંતૃપ્તિ",
+      "saturationAbbreviation": "એસ:"
+    },
+    "exportPresets": {
+      "deleteTooltip": "પ્રીસેટ કાઢી નાખો",
+      "heading": "પ્રીસેટ્સ નિકાસ કરો",
+      "overwriteTooltip": "પસંદ કરેલ પ્રીસેટ પર ફરીથી લખો",
+      "placeholder": "પ્રીસેટ પસંદ કરો...",
+      "presetNamePlaceholder": "પ્રીસેટ નામ",
+      "saveAsNewTooltip": "વર્તમાન સેટિંગ્સને નવા પ્રીસેટ તરીકે સાચવો",
+      "savedTooltip": "સાચવ્યું!"
+    },
+    "filmstrip": {
+      "tooltips": {
+        "color": "રંગ: {{color}}",
+        "virtualCopy": "વર્ચ્યુઅલ કૉપિ"
+      },
+      "virtualCopyAbbreviation": "VC"
+    },
+    "flags": {
+      "togglePick": "ટોગલ પિક",
+      "toggleReject": "ટૉગલ રિજેક્ટ"
+    },
+    "imagePicker": {
+      "clearImage": "છબી સાફ કરો",
+      "filterLabel": "છબી ફાઇલો",
+      "select": "પસંદ કરો",
+      "selectImageFile": "એક છબી ફાઇલ પસંદ કરો"
+    },
+    "lut": {
+      "clearLut": "LUT સાફ કરો",
+      "customLuts": "કસ્ટમ LUTs",
+      "empty": "હજુ સુધી કોઈ LUT નથી — અમુક આયાત કરો",
+      "filmEmulations": "ફિલ્મ ઇમ્યુલેશન્સ",
+      "filterLabel": "LUT ફાઇલો",
+      "import": "પ્રોફાઇલ્સ આયાત કરો",
+      "importFailed": "LUTs આયાત કરવામાં નિષ્ફળ",
+      "intensity": "તીવ્રતા",
+      "label": "LUT",
+      "removeLut": "LUT દૂર કરો",
+      "select": "પસંદ કરો",
+      "selectLutFile": "LUT ફાઇલ પસંદ કરો",
+      "unsupportedFormat": "અસમર્થિત ફાઇલ ફોર્મેટ(ઓ) મળ્યાં: .{{ext}}"
+    },
+    "slider": {
+      "clickToEdit": "ફેરફાર કરવા માટે ક્લિક કરો",
+      "reset": "રીસેટ કરો"
+    },
+    "waveform": {
+      "tooltips": {
+        "hideClipping": "ક્લિપિંગ ચેતવણીઓ છુપાવો",
+        "histogram": "હિસ્ટોગ્રામ",
+        "luma": "લુમા",
+        "parade": "પરેડ",
+        "rgb": "RGB ઓવરલે",
+        "showClipping": "ક્લિપિંગ ચેતવણીઓ બતાવો",
+        "vectorscope": "વેક્ટરસ્કોપ"
+      }
+    }
+  }
+}

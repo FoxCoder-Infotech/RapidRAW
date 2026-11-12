@@ -493,7 +493,7 @@ export default function MainLibrary(props: MainLibraryProps) {
                             )}
                           </span>
                         </p>
-                        <span>-</span>
+                        {/* <span>-</span>
                         <p>
                           <a
                             href="https://ko-fi.com/cybertimon"
@@ -512,7 +512,7 @@ export default function MainLibrary(props: MainLibraryProps) {
                           >
                             {t('library.splash.contribute')}
                           </a>
-                        </p>
+                        </p> */}
                       </div>
                     )}
                   </Text>

@@ -981,7 +981,7 @@
         "importPresetsTitle": "Importuoti nustatymus",
         "legacyPreset": "Senojo formato nustatymas",
         "presetFile": "Nustatymo failas",
-        "rapidRawPreset": "RapidRAW nustatymas"
+        "rapidRawPreset": "AfterEvents nustatymas"
       },
       "menu": {
         "configurePreset": "Konfigūruoti nustatymą",
@@ -1054,7 +1054,7 @@
     },
     "viewer": {
       "openFailed": "Nepavyko atidaryti antrojo lango: {{error}}",
-      "windowTitle": "RapidRAW žiūryklė"
+      "windowTitle": "AfterEvents žiūryklė"
     }
   },
   "export": {
@@ -1196,7 +1196,7 @@
     "close": {
       "cancel": "Atšaukti",
       "closeAnyway": "Vis tiek uždaryti",
-      "message": "Pakeitimai, laukiantys sinchronizavimo su Immich: {{number}}. Jie liks šiame kompiuteryje ir bus išsiųsti, kai kitą kartą paleisite RapidRAW ir Immich bus pasiekiamas.",
+      "message": "Pakeitimai, laukiantys sinchronizavimo su Immich: {{number}}. Jie liks šiame kompiuteryje ir bus išsiųsti, kai kitą kartą paleisite AfterEvents ir Immich bus pasiekiamas.",
       "title": "Pakeitimai dar neišsaugoti Immich"
     },
     "export": {
@@ -1539,7 +1539,7 @@
     },
     "splash": {
       "addFolder": "Pridėti aplanką",
-      "brand": "RapidRAW",
+      "brand": "AfterEvents",
       "continueSession": "Tęsti seansą",
       "contribute": "Prisidėti prie GitHub",
       "descriptionAndroid": "Žaibiškai greitas, GPU spartinamas RAW nuotraukų redaktorius. Pradėkite atidarę biblioteką.",
@@ -2038,7 +2038,7 @@
       },
       "storageTitle": "Saugykla",
       "title": "Duomenų valdymas",
-      "totalUsed": "RapidRAW šiame įrenginyje užima {{size}}."
+      "totalUsed": "AfterEvents šiame įrenginyje užima {{size}}."
     },
     "general": {
       "createXmp": "Kurti trūkstamus XMP failus",
@@ -2060,7 +2060,7 @@
       "hideCollapsedPanels": "Visiškai paslėpti suskleistus skydelius",
       "hideCollapsedPanelsDesc": "Suskleisti šoniniai skydeliai visiškai pasislepia, nepalikdami siauros juostos. Atidarykite juos iš apatinės juostos arba sparčiaisiais klavišais.",
       "nativeTitlebar": "Gimtoji OS lango antraštė",
-      "nativeTitlebarDesc": "Naudoti jūsų sistemos numatytąją lango antraštę vietoj RapidRAW individualios.",
+      "nativeTitlebarDesc": "Naudoti jūsų sistemos numatytąją lango antraštę vietoj AfterEvents individualios.",
       "neutralGreyCanvas": "Neutraliai pilka drobė",
       "neutralGreyCanvasDesc": "Naudoti neutraliai pilką drobę tikslesniam spalvų ir ekspozicijos vertinimui nekeičiant programos temos.",
       "poppins": "Poppins",
@@ -2176,7 +2176,7 @@
       },
       "ai": {
         "aiFree": {
-          "description": "Išjungti visas DI funkcijas. Visi su DI susiję valdikliai paslepiami iš sąsajos, todėl RapidRAW veikia kaip tradicinis RAW redaktorius.",
+          "description": "Išjungti visas DI funkcijas. Visi su DI susiję valdikliai paslepiami iš sąsajos, todėl AfterEvents veikia kaip tradicinis RAW redaktorius.",
           "feature1": "Jokių DI kaukių, objektyvo suliejimo ar generatyvinių redagavimų sąsajoje",
           "feature2": "Esami DI redagavimai atvaizduojami įprastai",
           "feature3": "Švaresnė, labiau sutelkta vartotojo sąsaja",
@@ -2211,7 +2211,7 @@
         "connector": {
           "address": "DI jungties (AI Connector) adresas",
           "addressDesc": "Įveskite veikiančio AI Connector serverio adresą ir prievadą. Reikalinga generatyvinio DI funkcijoms.",
-          "description": "Naudotojams su galinga vaizdo plokšte, norintiems maksimalios kontrolės: prijunkite RapidRAW prie savo serverio.",
+          "description": "Naudotojams su galinga vaizdo plokšte, norintiems maksimalios kontrolės: prijunkite AfterEvents prie savo serverio.",
           "failed": "Prisijungti nepavyko.",
           "feature1": "Naudokite savo ComfyUI serverį",
           "feature2": "Nemokami pažangūs generatyviniai redagavimai",
@@ -2219,10 +2219,10 @@
           "success": "Prisijungta sėkmingai!",
           "test": "Tikrinti",
           "testing": "Tikrinama...",
-          "title": "Savas serveris (RapidRAW AI Connector)"
+          "title": "Savas serveris (AfterEvents AI Connector)"
         },
         "cpu": {
-          "description": "Integruotos tiesiai į RapidRAW, šios funkcijos veikia pilnai jūsų kompiuteryje. Jos yra greitos, nemokamos ir nereikalauja jokio nustatymo.",
+          "description": "Integruotos tiesiai į AfterEvents, šios funkcijos veikia pilnai jūsų kompiuteryje. Jos yra greitos, nemokamos ir nereikalauja jokio nustatymo.",
           "feature1": "DI kaukės (pagrindinis objektas, dangus, pirmas planas)",
           "feature2": "Automatinis nuotraukų žymėjimas",
           "feature3": "Paprastas generatyvinis objektų keitimas vietoje",
@@ -2231,7 +2231,7 @@
           "gpuAccelerationLabel": "Naudoti GPU DI modeliams",
           "title": "Integruotas DI"
         },
-        "description": "RapidRAW DI sukurtas lankstumui. Pasirinkite idealią darbo eigą – nuo greitų vietinių įrankių iki galingo nuosavo serverio.",
+        "description": "AfterEvents DI sukurtas lankstumui. Pasirinkite idealią darbo eigą – nuo greitų vietinių įrankių iki galingo nuosavo serverio.",
         "providers": {
           "aiConnector": "AI Connector",
           "aiFree": "Be DI",
@@ -2394,7 +2394,7 @@
       "title": "Žymėjimas"
     },
     "thanks": {
-      "description": "Nuoširdus ačiū šiems projektams, kurie buvo be galo svarbūs kuriant RapidRAW:",
+      "description": "Nuoširdus ačiū šiems projektams, kurie buvo be galo svarbūs kuriant AfterEvents:",
       "list": {
         "birefnet": "Už didelės raiškos segmentavimo modelį, kuris palaiko DI pirmo plano aptikimą.",
         "darktable": "Už etalonines implementacijas, kurios padėjo sukurti dalį šio funkcionalumo.",
@@ -2405,12 +2405,12 @@
         "libgphoto2": "Už kamerų ryšio biblioteką, valdančią fotografavimą prijungus prie kompiuterio.",
         "mediapipe": "Už greitus veido bruožų ir segmentavimo modelius, kuriais paremtos DI veido kaukės.",
         "negpy": "Už įkvėpimą kuriant negatyvų konvertavimo logiką.",
-        "nind": "Už DI modelius, kurie užtikrina DI triukšmo slopinimą programoje RapidRAW.",
-        "span": "Už bazinį DI modelį, naudojamą RapidRes – RapidRAW 2x DI didinimui, kurį RapidRAW pritaikė savo RAW apdorojimui (autorius Philip Hofmann, CC BY 4.0).",
+        "nind": "Už DI modelius, kurie užtikrina DI triukšmo slopinimą programoje AfterEvents.",
+        "span": "Už bazinį DI modelį, naudojamą RapidRes – AfterEvents 2x DI didinimui, kurį AfterEvents pritaikė savo RAW apdorojimui (autorius Philip Hofmann, CC BY 4.0).",
         "rawler": "Už puikią Rust biblioteką, suteikiančią RAW failų apdorojimo pagrindą šiame projekte.",
         "sam2": "Už bazinį modelį, naudojamą DI pagrindinio objekto aptikimui.",
         "spektrafilm": "Už Andrea Volpato sukurtus spektrinius juostos emuliacijos LUT failus (CC BY-SA 4.0).",
-        "you": "Už tai, kad naudojate ir palaikote RapidRAW. Jūsų susidomėjimas palaiko šį projektą gyvą.",
+        "you": "Už tai, kad naudojate ir palaikote AfterEvents. Jūsų susidomėjimas palaiko šį projektą gyvą.",
         "youLabel": "Jums"
       },
       "title": "Ypatinga padėka"

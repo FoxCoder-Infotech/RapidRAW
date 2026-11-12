@@ -8,6 +8,8 @@ import zhTW from './locales/zh-TW.json';
 import pl from './locales/pl.json';
 import es from './locales/es.json';
 import fr from './locales/fr.json';
+import gu from './locales/gu.json';
+import hi from './locales/hi.json';
 import it from './locales/it.json';
 import pt from './locales/pt.json';
 import ja from './locales/ja.json';
@@ -28,6 +30,8 @@ i18n.use(initReactI18next).init({
     pl: { translation: pl },
     es: { translation: es },
     fr: { translation: fr },
+    gu: { translation: gu },
+    hi: { translation: hi },
     it: { translation: it },
     pt: { translation: pt },
     ja: { translation: ja },

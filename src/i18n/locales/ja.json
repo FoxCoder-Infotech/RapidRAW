@@ -962,7 +962,7 @@
     },
     "viewer": {
       "openFailed": "セカンドウィンドウを開けませんでした: {{error}}",
-      "windowTitle": "RapidRAW ビューアー"
+      "windowTitle": "AfterEvents ビューアー"
     }
   },
   "export": {
@@ -1100,7 +1100,7 @@
     "close": {
       "cancel": "キャンセル",
       "closeAnyway": "このまま閉じる",
-      "message": "Immich への送信待ちの編集: {{number}}。編集内容はこのコンピューターに残り、次回 RapidRAW を起動して Immich に接続できたときに送信されます。",
+      "message": "Immich への送信待ちの編集: {{number}}。編集内容はこのコンピューターに残り、次回 AfterEvents を起動して Immich に接続できたときに送信されます。",
       "title": "Immich に未送信の編集"
     },
     "export": {
@@ -1428,7 +1428,7 @@
     },
     "splash": {
       "addFolder": "フォルダを追加",
-      "brand": "RapidRAW",
+      "brand": "AfterEvents",
       "continueSession": "セッションを続行",
       "contribute": "GitHubで貢献する",
       "descriptionAndroid": "圧倒的に高速な、GPUアクセラレーション対応RAW画像エディタ。ライブラリを開いて始めましょう。",
@@ -1908,7 +1908,7 @@
       },
       "storageTitle": "ストレージ",
       "title": "データ管理",
-      "totalUsed": "RapidRAW はこのデバイスで {{size}} を使用しています。"
+      "totalUsed": "AfterEvents はこのデバイスで {{size}} を使用しています。"
     },
     "general": {
       "createXmp": "見つからないXMPファイルを作成",
@@ -2082,7 +2082,7 @@
           "success": "接続に成功しました！",
           "test": "テスト",
           "testing": "テスト中...",
-          "title": "セルフホスト (RapidRAW AI Connector)"
+          "title": "セルフホスト (AfterEvents AI Connector)"
         },
         "cpu": {
           "description": "RapidRAWに直接内蔵されており、お使いのコンピューター上のみで動作します。高速かつ無料でセットアップも不要です。",
@@ -2260,14 +2260,14 @@
         "efficientsam3": "AIによる空とテキストのマスクを支える、SAM 3から蒸留された効率的なプロンプト対応セグメンテーションモデルを提供しています。",
         "lama": "コンテンツに応じた塗りつぶしやオブジェクト削除を実現する、シンプルかつ強力な画像インペインティングモデルを提供しています。",
         "lensfun": "自動レンズ補正に不可欠な、オープンソースライブラリと膨大なデータベースを提供しています。",
-        "libgphoto2": "RapidRAW のテザリングおよびリモート撮影機能を支える、包括的なカメラ通信ライブラリを提供してくださったことに。",
+        "libgphoto2": "AfterEvents のテザリングおよびリモート撮影機能を支える、包括的なカメラ通信ライブラリを提供してくださったことに。",
         "mediapipe": "AI顔マスクを支える高速な顔ランドマークおよびセグメンテーションモデルに。",
         "negpy": "ネガ反転アルゴリズムのヒントとなりました。",
         "nind": "AIノイズ低減機能を支えるAIモデルを提供しています。",
         "span": "RapidRAWのAI 2倍拡大機能RapidResのベースとなるAIモデルです。RapidRAWが独自のRAW処理に合わせてファインチューニングしています（Philip Hofmann作、CC BY 4.0）。",
         "rawler": "RAWファイル処理の基盤となる優れたRustライブラリを提供しています。",
         "sam2": "AI被写体検出機能の基盤となるモデルを提供しています。",
-        "spektrafilm": "RapidRAW の内蔵フィルムエミュレーションを支える、Andrea Volpato 氏によるスペクトルベースのフィルムエミュレーション LUT を提供してくださったことに。ライセンスは CC BY-SA 4.0 です。",
+        "spektrafilm": "AfterEvents の内蔵フィルムエミュレーションを支える、Andrea Volpato 氏によるスペクトルベースのフィルムエミュレーション LUT を提供してくださったことに。ライセンスは CC BY-SA 4.0 です。",
         "you": "RapidRAWをご利用、ご支援いただきありがとうございます。皆様のご関心こそが、プロジェクトの存続と発展の支えです。",
         "youLabel": "皆様"
       },
